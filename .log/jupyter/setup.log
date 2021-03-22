@@ -1,0 +1,410 @@
+elasticsearch: stopped
+elasticsearch: updated process group
+elasticsearch: started
+etting /resources ownership
+
+Setting /resources permissions
+
+Applying permissions asynchronously
+make[1]: Entering directory '/srv/nbserver'
+Always fork for recursive chmod, chgrp, chown, find
+Async: Setting /resources ownership
+Create resources group and add notebook process owner to it
+to ensure permissions on resources data volume
+
+Async: Setting /resources permissions
+Replace Submit-to-Spark-Cluster.ipynb every time so that we can push updates and fix broken users
+Submit to cluster notebook has to be owned by 2003 to work
+
+Async: Applying permissions to notebooks in /resources
+su - notebook -c "mkdir -p /resources/jupyter"
+su - notebook -c "mv /home/notebook/.Rprofile /resources/jupyter/.Rprofile"
+su - notebook -c "ln -sf /resources/jupyter/.Rprofile /home/notebook/.Rprofile"
+make[1]: Leaving directory '/srv/nbserver'
+Inject the build number into the custom.js to cache bust
+Python 3.5 does not exist. Remove old environment asynchronously
+make[1]: Entering directory '/srv/nbserver'
+Python 3.5 does not exist. Deleting old Python 3 environment. @-rm -rf /resources/common/.virtualenv/python3
+Python 3 has been deleted
+make[1]: Leaving directory '/srv/nbserver'
+Already using interpreter /usr/bin/python3
+Using base prefix '/usr'
+New python executable in /resources/common/.virtualenv/python3/bin/python3
+Also creating executable in /resources/common/.virtualenv/python3/bin/python
+Installing setuptools, pip, wheel...done.
+Python3.5 virtualenv created
+Creating Python2 virtualenv
+Creating a new Python2 virtualenv
+New python executable in /resources/common/.virtualenv/python2/bin/python2
+Also creating executable in /resources/common/.virtualenv/python2/bin/python
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /usr/bin/python2
+Python 2 virtualenv should be good
+Copy kawb Python 2 package to nbserver site-packages volume
+Python 2 kawb installed
+Copy kawb Python 3 package to nbserver site-packages volume
+Python 3 kawb installed
+Rendering config.js
+Done rendering config.js
+notebook: started
+elasticsearch: stopped
+elasticsearch: updated process group
+/resources permissions
+
+Applying permissions asynchronously
+make[1]: Entering directory '/srv/nbserver'
+Always fork for recursive chmod, chgrp, chown, find
+Create resources group and add notebook process owner to it
+to ensure permissions on resources data volume
+Async: Setting /resources ownership
+Replace Submit-to-Spark-Cluster.ipynb every time so that we can push updates and fix broken users
+elasticsearch: started
+ook has to be owned by 2003 to work
+Inject the build number into the custom.js to cache bust
+Makefile:168: recipe for target 'py3_remove' failed
+make: [py3_remove] Error 1 (ignored)
+Rendering config.js
+Done rendering config.js
+notebook: started
+Configuring container data path
+Done: Configuring container data path
+Mark license disabled
+License disabled
+webapp: started
+cat: VERSION: No such file or directory
+cat: VERSION: No such file or directory
+indexer: stopped
+indexer: updated process group
+redis: started
+running in workbench mode
+0
+1
+2
+OK
+0
+1
+2
+OK
+cat: VERSION: No such file or directory
+cat: VERSION: No such file or directory
+indexer: started
+hipache_http: started
+Creating data folder
+
+Setting /resources ownership
+
+Setting /resources permissions
+
+Applying permissions asynchronously
+make[1]: Entering directory '/srv/nbserver'
+Always fork for recursive chmod, chgrp, chown, find
+Create resources group and add notebook process owner to it
+to ensure permissions on resources data volume
+Async: Setting /resources ownership
+Replace Submit-to-Spark-Cluster.ipynb every time so that we can push updates and fix broken users
+Submit to cluster notebook has to be owned by 2003 to work
+Inject the build number into the custom.js to cache bust
+Python 3.5 does not exist. Remove old environment asynchronously
+make[1]: Entering directory '/srv/nbserver'
+Python 3.5 does not exist. Deleting old Python 3 environment. @-rm -rf /resources/common/.virtualenv/python3
+Python 3 has been deleted
+make[1]: Leaving directory '/srv/nbserver'
+
+Async: Setting /resources permissions
+
+Async: Applying permissions to notebooks in /resources
+make[1]: Leaving directory '/srv/nbserver'
+Already using interpreter /usr/bin/python3
+Using base prefix '/usr'
+New python executable in /resources/common/.virtualenv/python3/bin/python3
+Also creating executable in /resources/common/.virtualenv/python3/bin/python
+Installing setuptools, pip, wheel...Configuring container data path
+Done: Configuring container data path
+Mark license disabled
+License disabled
+webapp: started
+indexer: stopped
+indexer: updated process group
+SION: No such file or directory
+done.
+Python3.5 virtualenv created
+Creating Python2 virtualenv
+Creating a new Python2 virtualenv
+y
+cat: VERSION: No such file or directory
+hipache_http: started
+New python executable in /resources/common/.virtualenv/python2/bin/python2
+Also creating executable in /resources/common/.virtualenv/python2/bin/python
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /usr/bin/python2
+Python 2 virtualenv should be good
+Copy kawb Python 2 package to nbserver site-packages volume
+Python 2 kawb installed
+Copy kawb Python 3 package to nbserver site-packages volume
+Python 3 kawb installed
+Rendering config.js
+Done rendering config.js
+notebook: started
+Creating data folder
+
+Setting /resources ownership
+
+Setting elasticsearch: started
+
+Applying permissions asynchronously
+make[1]: Entering directory '/srv/nbserver'
+Always fork for recursive chmod, chgrp, chown, find
+Create resources group and add notebook process owner to it
+to ensure permissions on resources data volume
+Async: Setting /resources ownership
+Replace Submit-to-Spark-Cluster.ipynb every time so that we can push updates and fix broken users
+Submit to cluster notebook has to be owned by 2003 to work
+Inject the build number into the custom.js to cache bust
+Makefile:168: recipe for target 'py3_remove' failed
+make: [py3_remove] Error 1 (ignored)
+Rendering config.js
+Done rendering config.js
+notebook: started
+Configuring container data path
+Done: Configuring container data path
+Mark license disabled
+License disabled
+webapp: started
+indexer: stopped
+indexer: updated process group
+SION: No such file or directory
+indexer: started
+nning in workbench mode
+0
+1
+2
+OK
+0
+1
+2
+OK
+cat: VERSION: No such file or directory
+cat: VERSION: No such file or directory
+hipache_http: started
+elasticsearch: stopped
+elasticsearch: updated process group
+elasticsearch: started
+etting /resources ownership
+
+Setting /resources permissions
+
+Applying permissions asynchronously
+make[1]: Entering directory '/srv/nbserver'
+Always fork for recursive chmod, chgrp, chown, find
+Create resources group and add notebook process owner to it
+Async: Setting /resources ownership
+to ensure permissions on resources data volume
+Replace Submit-to-Spark-Cluster.ipynb every time so that we can push updates and fix broken users
+Submit to cluster notebook has to be owned by 2003 to work
+Inject the build number into the custom.js to cache bust
+Makefile:168: recipe for target 'py3_remove' failed
+make: [py3_remove] Error 1 (ignored)
+Rendering config.js
+Done rendering config.js
+notebook: started
+Configuring container data path
+Done: Configuring container data path
+Mark license disabled
+License disabled
+webapp: started
+indexer: stopped
+indexer: updated process group
+indexer: started
+such file or directory
+cat: VERSION: No such file or directory
+redis: started
+running in workbench mode
+0
+1
+2
+OK
+0
+1
+2
+OK
+cat: VERSION: No such file or directory
+cat: VERSION: No such file or directory
+hipache_http: started
+elasticsearch: stopped
+elasticsearch: updated process group
+Creating data folder
+
+Setting /resources ownership
+
+Setting /resources permissions
+
+Applying permissions asynchronously
+make[1]: Entering directory '/srv/nbserver'
+Always fork for recursive chmod, chgrp, chown, find
+Create resources group and add notebook process owner to it
+to ensure permissions on resources data volume
+Async: Setting /resources ownership
+Replace Submit-to-Spark-Cluster.ipynb every time so that we can push updates and fix broken users
+Submit to cluster notebook has to be owned by 2003 to work
+Inject the build number into the custom.js to cache bust
+Makefile:168: recipe for target 'py3_remove' failed
+make: [py3_remove] Error 1 (ignored)
+Rendering config.js
+Done rendering config.js
+elasticsearch: started
+notebook: started
+Configuring container data path
+Done: Configuring container data path
+Mark license disabled
+License disabled
+webapp: started
+indexer: stopped
+indexer: updated process group
+indexer: started
+such file or directory
+cat: VERSION: No such file or directory
+redis: started
+running in workbench mode
+0
+1
+2
+OK
+0
+1
+2
+OK
+cat: VERSION: No such file or directory
+cat: VERSION: No such file or directory
+hipache_http: started
+elasticsearch: stopped
+elasticsearch: updated process group
+elasticsearch: started
+etting /resources ownership
+
+Setting /resources permissions
+
+Applying permissions asynchronously
+make[1]: Entering directory '/srv/nbserver'
+Always fork for recursive chmod, chgrp, chown, find
+Create resources group and add notebook process owner to it
+to ensure permissions on resources data volume
+Async: Setting /resources ownership
+Replace Submit-to-Spark-Cluster.ipynb every time so that we can push updates and fix broken users
+Submit to cluster notebook has to be owned by 2003 to work
+Inject the build number into the custom.js to cache bust
+Makefile:168: recipe for target 'py3_remove' failed
+make: [py3_remove] Error 1 (ignored)
+Rendering config.js
+Done rendering config.js
+notebook: started
+Configuring container data path
+Done: Configuring container data path
+Mark license disabled
+License disabled
+webapp: started
+indexer: stopped
+indexer: updated process group
+indexer: started
+such file or directory
+cat: VERSION: No such file or directory
+redis: started
+running in workbench mode
+0
+1
+2
+OK
+0
+1
+2
+OK
+cat: VERSION: No such file or directory
+cat: VERSION: No such file or directory
+hipache_http: started
+elasticsearch: stopped
+elasticsearch: updated process group
+elasticsearch: started
+etting /resources ownership
+
+Setting /resources permissions
+
+Applying permissions asynchronously
+make[1]: Entering directory '/srv/nbserver'
+Always fork for recursive chmod, chgrp, chown, find
+Create resources group and add notebook process owner to it
+to ensure permissions on resources data volume
+Async: Setting /resources ownership
+Replace Submit-to-Spark-Cluster.ipynb every time so that we can push updates and fix broken users
+Submit to cluster notebook has to be owned by 2003 to work
+Inject the build number into the custom.js to cache bust
+Makefile:168: recipe for target 'py3_remove' failed
+make: [py3_remove] Error 1 (ignored)
+Rendering config.js
+Done rendering config.js
+notebook: started
+Configuring container data path
+Done: Configuring container data path
+Mark license disabled
+License disabled
+webapp: started
+indexer: stopped
+indexer: updated process group
+SION: No such file or directory
+indexer: started
+nning in workbench mode
+0
+1
+2
+OK
+0
+1
+2
+OK
+cat: VERSION: No such file or directory
+cat: VERSION: No such file or directory
+hipache_http: started
+elasticsearch: stopped
+elasticsearch: updated process group
+Creating data folder
+
+Setting /resources ownership
+
+Setting /resources permissions
+
+Applying permissions asynchronously
+make[1]: Entering directory '/srv/nbserver'
+Always fork for recursive chmod, chgrp, chown, find
+Create resources group and add notebook process owner to it
+to ensure permissions on resources data volume
+Async: Setting /resources ownership
+Replace Submit-to-Spark-Cluster.ipynb every time so that we can push updates and fix broken users
+Submit to cluster notebook has to be owned by 2003 to work
+Inject the build number into the custom.js to cache bust
+Makefile:168: recipe for target 'py3_remove' failed
+make: [py3_remove] Error 1 (ignored)
+Rendering config.js
+Done rendering config.js
+elasticsearch: started
+notebook: started
+Configuring container data path
+Done: Configuring container data path
+Mark license disabled
+License disabled
+webapp: started
+indexer: stopped
+indexer: updated process group
+indexer: started
+such file or directory
+cat: VERSION: No such file or directory
+redis: started
+running in workbench mode
+0
+1
+2
+OK
+0
+1
+2
+OK
+cat: VERSION: No such file or directory
+cat: VERSION: No such file or directory
+hipache_http: started

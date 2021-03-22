@@ -1,0 +1,22 @@
+index,Without Lemmanization,With Lemmanization,Lemmatized and Ngram
+I can easily log-in and log-out my Canvas account.,0.14882642857142875,0.17137571428571427,0.09742626262626262
+I can access my course using the mobile Canvas app. ,0.1407435714285715,0.16313071428571432,0.08671189839572192
+I can access my Canvas account using the available computers in JRU.,0.14149928571428574,0.15920571428571434,0.08418537666174299
+I can easily get help when I have problems with my Canvas account.,-0.007862857142857145,0.08488142857142857,0.02600934579439252
+I have no issues accessing my Canvas account using the wired internet connection in the computer laboratories.,0.2446035714285716,0.2711971428571431,0.09872561174551386
+I can access my Canvas account outside JRU. ,0.15510500000000013,0.17636500000000008,0.06834012345679014
+I can clearly understand the lessons on my Canvas modules. ,0.22899000000000025,0.26615285714285725,0.1551563535911602
+I recognize that the modules in my course are well organized.,0.2420350000000001,0.27341714285714314,0.20349373297002726
+I can easily manage the navigation of the courses through the desktop version. ,0.2836021428571429,0.31624142857142856,0.2462952522255193
+I can easily manage the navigation of the courses through the mobile app.,0.21079785714285731,0.25183285714285736,0.11851658653846155
+I notice that course materials on Canvas have connection with the face to face (classroom) lesson content.,0.17913500000000018,0.20647571428571448,0.085259793814433
+I understand the lessons better with the help of course materials in Canvas. ,0.33555214285714263,0.33951142857142835,0.27980666666666665
+Canvas course materials make me interested.,0.3411871428571426,0.37102928571428556,0.2947934837092732
+The course materials on Canvas helped me prepare for: [Face to Face discussions],0.25452571428571424,0.2830335714285715,0.17662116564417174
+My instructor knows how to use Canvas.,0.21758357142857168,0.24497928571428587,0.11872903225806453
+My instructor demonstrated mastery of the subject matter.,0.25899000000000016,0.2714250000000001,0.24922847222222225
+My instructor encourages me to use Canvas.,0.2842221428571428,0.2912928571428571,0.17001296296296303
+Canvas has made it easy for me to: [Communicate with my instructor],0.2860092857142857,0.2971407142857143,0.14998398510242086
+"I can answer the assessment materials (quiz, exam) posted in Canvas.",0.2157164285714288,0.2308800000000002,0.11023876923076922
+I find the course materials on Canvas aligned with the: [Quizzes],0.1809285714285716,0.206052142857143,0.07220956284153006
+I have been give enough time to accomplish the activities on Canvas.,0.19645142857142872,0.22575571428571445,0.11779370932754883

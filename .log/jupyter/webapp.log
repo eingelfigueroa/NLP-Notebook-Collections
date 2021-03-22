@@ -1,0 +1,1050 @@
+[2019-09-25 09:20:44 +0000] [91] [INFO] Starting gunicorn 19.3.0
+[2019-09-25 09:20:44 +0000] [91] [INFO] Listening at: http://0.0.0.0:5000 (91)
+[2019-09-25 09:20:44 +0000] [91] [INFO] Using worker: flask_sockets.worker
+[2019-09-25 09:20:44 +0000] [96] [INFO] Booting worker with pid: 96
+[2019-09-25 09:20:44 +0000] [97] [INFO] Booting worker with pid: 97
+[2019-09-25 09:20:44 +0000] [98] [INFO] Booting worker with pid: 98
+[2019-09-25 09:20:44 +0000] [99] [INFO] Booting worker with pid: 99
+[2019-09-25 09:21:32 +0000] [97] [INFO] 10.42.79.124 - - "GET / HTTP/1.1" 200 37031 0.322604 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:32 +0000] [98] [INFO] 10.42.79.124 - - "GET /common/static/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 121530 0.026395 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:33 +0000] [96] [INFO] 10.42.79.124 - - "GET /static/0.4.1/css/index.css HTTP/1.1" 200 15986 0.006501 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:33 +0000] [96] [INFO] 10.42.79.124 - - "GET /static/0.4.1/css/animate.css HTTP/1.1" 200 1071 0.002506 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:33 +0000] [99] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/dsx_logo.svg HTTP/1.1" 200 1625 0.007979 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:33 +0000] [97] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/python-logo.svg HTTP/1.1" 200 269865 0.013716 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:33 +0000] [99] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/Rlogo.svg HTTP/1.1" 200 2304 0.001746 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:33 +0000] [96] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/scala-logo.png HTTP/1.1" 200 16136 0.001870 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:33 +0000] [98] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/email_logo.png HTTP/1.1" 200 2808 0.003226 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:33 +0000] [99] [INFO] 10.42.79.124 - - "GET /static/0.4.1/js/dist/build.min.js HTTP/1.1" 200 311614 0.060744 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:34 +0000] [99] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/github_logo.png HTTP/1.1" 200 3973 0.002383 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:34 +0000] [97] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/google_drive_logo.png HTTP/1.1" 200 5081 0.002834 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:34 +0000] [96] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/box_logo.png HTTP/1.1" 200 5427 0.002701 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:34 +0000] [97] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/twitter_logo.png HTTP/1.1" 200 3072 0.001562 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:34 +0000] [98] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/dropbox_logo.png HTTP/1.1" 200 6114 0.002398 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:34 +0000] [96] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/facebook_logo.png HTTP/1.1" 200 1826 0.001262 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:34 +0000] [99] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/gist_logo.png HTTP/1.1" 200 3302 0.004082 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:34 +0000] [97] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/icon_tip_48.gif HTTP/1.1" 200 2205 0.001771 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:34 +0000] [96] [INFO] 10.42.79.124 - - "GET /static/0.4.1/fonts/Glyphicons-KAWB.woff HTTP/1.1" 200 2194 0.012718 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:34 +0000] [99] [INFO] 10.42.79.124 - - "GET /common/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23627 0.012993 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:34 +0000] [98] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/background_color_600x423.png HTTP/1.1" 200 34310 0.014562 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:34 +0000] [98] [INFO] 10.42.79.124 - - "GET /api/v1/resources?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 125 0.001751 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:35 +0000] [99] [INFO] 10.42.79.124 - - "GET /pages?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 165 0.032092 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:35 +0000] [97] [INFO] 10.42.79.124 - - "GET /pages/welcome HTTP/1.1" 200 24463 0.189707 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:35 +0000] [96] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/processing_ani_icon_small.gif HTTP/1.1" 200 4013 0.002516 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:35 +0000] [98] [INFO] 10.42.79.124 - - "GET /pages/static/images/scala-logo.png HTTP/1.1" 200 16136 0.001794 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:35 +0000] [98] [INFO] 10.42.79.124 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:35 +0000] [99] [INFO] 10.42.79.124 - - "GET /pages/static/images/Rlogo.svg HTTP/1.1" 200 2304 0.001487 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:35 +0000] [99] [INFO] 10.42.79.124 - - "GET /pages/static/images/python-logo.svg HTTP/1.1" 200 269865 0.020318 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:35 +0000] [96] [INFO] 10.42.79.124 - - "GET /static/0.4.1/templates/sidebar_panel.html HTTP/1.1" 200 1199 0.001630 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:35 +0000] [99] [INFO] 10.42.79.124 - - "GET /static/0.4.1/templates/notices.html HTTP/1.1" 200 668 0.001560 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:35 +0000] [98] [INFO] 10.42.79.124 - - "GET /static/0.4.1/templates/breadcrumbs_menu.html HTTP/1.1" 200 376 0.002461 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:36 +0000] [99] [INFO] 10.42.79.124 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:36 +0000] [96] [INFO] 10.42.79.124 - - "GET /static/0.4.1/templates/frecent_resources.html HTTP/1.1" 200 646 0.001551 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:36 +0000] [99] [INFO] 10.42.79.124 - - "GET /static/0.4.1/templates/resource_menu.html HTTP/1.1" 200 6241 0.006989 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:37 +0000] [99] [INFO] 10.42.79.124 - - "GET /api/v1/resources?type=notebook&limit=10 HTTP/1.1" 200 757 0.178045 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:37 +0000] [98] [INFO] 10.42.79.124 - - "GET /api/v1/resources?type=data&limit=10 HTTP/1.1" 200 2934 0.143284 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:37 +0000] [96] [INFO] 10.42.79.124 - - "GET /static/0.4.1/templates/resources_list.html HTTP/1.1" 200 1884 0.001663 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:37 +0000] [99] [INFO] 10.42.79.124 - - "GET /static/0.4.1/templates/breadcrumbs.html HTTP/1.1" 200 1615 0.001610 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:58 +0000] [98] [INFO] 10.42.79.124 - - "GET / HTTP/1.1" 200 37031 0.309735 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:59 +0000] [99] [INFO] 10.42.79.124 - - "GET /pages?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 165 0.001757 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:59 +0000] [96] [INFO] 10.42.79.124 - - "GET /api/v1/resources?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 125 0.001413 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:59 +0000] [98] [INFO] 10.42.79.124 - - "GET /api/v1/resources?type=data&limit=10 HTTP/1.1" 200 2934 0.135012 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:59 +0000] [97] [INFO] 10.42.79.124 - - "GET /api/v1/resources?type=notebook&limit=10 HTTP/1.1" 200 757 0.168346 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:59 +0000] [99] [INFO] 10.42.79.124 - - "GET /pages/welcome HTTP/1.1" 200 24467 0.248102 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:21:59 +0000] [96] [INFO] 10.42.79.124 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:22:00 +0000] [99] [INFO] 10.42.79.124 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:22:13 +0000] [98] [INFO] 127.0.0.1 - - "GET /tutorials/datascience/Sparkling-Data-Drug-Brunel-Python3.ipynb HTTP/1.1" 200 10089 0.004330 "python-requests/2.20.0"
+[2019-09-25 09:22:13 +0000] [96] [INFO] 10.42.79.124 - - "POST /api/v1/resources HTTP/1.1" 200 611 0.040492 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:22:14 +0000] [96] [INFO] 10.42.79.124 - - "GET /static/0.4.1/images/processing_ani_icon_medium.gif HTTP/1.1" 200 13331 0.001881 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:22:14 +0000] [98] [INFO] 10.42.79.124 - - "GET /api/v1/resources/Sparkling-Data-Drug-Brunel-Python3.ipynb?view=edit HTTP/1.1" 302 594 0.007766 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:22:25 +0000] [97] [INFO] 10.42.79.124 - - "PUT /api/v1/resources/Sparkling-Data-Drug-Brunel-Python3.ipynb HTTP/1.1" 200 610 0.029804 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:22:57 +0000] [96] [INFO] 10.42.79.124 - - "POST /api/v1/resources HTTP/1.1" 200 481 0.031741 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:22:58 +0000] [96] [INFO] 10.42.79.124 - - "GET /api/v1/resources/Untitled.ipynb?view=edit HTTP/1.1" 302 516 0.016530 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:23:02 +0000] [96] [INFO] 10.42.79.124 - - "PUT /api/v1/resources/Untitled.ipynb HTTP/1.1" 200 480 0.075635 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:28:40 +0000] [96] [INFO] 10.42.79.124 - - "GET / HTTP/1.1" 200 37031 0.448608 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:28:42 +0000] [96] [INFO] 10.42.79.124 - - "GET /pages/welcome HTTP/1.1" 200 24336 0.156797 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:28:42 +0000] [98] [INFO] 10.42.79.124 - - "GET /api/v1/resources?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 125 0.001695 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:28:42 +0000] [97] [INFO] 10.42.79.124 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:28:42 +0000] [99] [INFO] 10.42.79.124 - - "GET /pages?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 165 0.001886 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:28:42 +0000] [96] [INFO] 10.42.79.124 - - "GET /api/v1/resources?type=notebook&limit=10 HTTP/1.1" 200 1979 0.058631 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:28:42 +0000] [96] [INFO] 10.42.79.124 - - "GET /api/v1/resources?type=data&limit=10 HTTP/1.1" 200 3540 0.106880 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:28:43 +0000] [98] [INFO] 10.42.79.124 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:28:44 +0000] [97] [INFO] 127.0.0.1 - - "GET /tutorials/getting_started/Tutorial%20%231%20-%20Get%20Data.ipynb HTTP/1.1" 200 15954 0.003345 "python-requests/2.20.0"
+[2019-09-25 09:28:44 +0000] [96] [INFO] 10.42.79.124 - - "POST /api/v1/resources HTTP/1.1" 200 581 0.093121 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:28:44 +0000] [99] [INFO] 10.42.79.124 - - "GET /api/v1/resources/Tutorial%20%231%20-%20Get%20Data.ipynb?view=edit HTTP/1.1" 302 588 0.018285 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:28:49 +0000] [98] [INFO] 10.42.79.124 - - "POST /api/v1/resources HTTP/1.1" 200 486 0.072052 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:28:49 +0000] [97] [INFO] 10.42.79.124 - - "GET /api/v1/resources/Untitled0.ipynb?view=edit HTTP/1.1" 302 519 0.045057 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:28:50 +0000] [99] [INFO] 10.42.79.124 - - "PUT /api/v1/resources/Tutorial%20%231%20-%20Get%20Data.ipynb HTTP/1.1" 200 580 0.071920 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-25 09:28:54 +0000] [96] [INFO] 10.42.79.124 - - "PUT /api/v1/resources/Untitled0.ipynb HTTP/1.1" 200 485 0.028918 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+[2019-09-25 09:38:32 +0000] [91] [INFO] Handling signal: term
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+2019-09-25T09:38:32Z     response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+<Greenlet "Greenlet-0" at 0x7fed05012998: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7fed044ab5d0>>> failed with ConnectionError
+
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+2019-09-25T09:38:32Z     response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+<Greenlet "Greenlet-0" at 0x7fed04f54998: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7fed044ab550>>> failed with ConnectionError
+
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+2019-09-25T09:38:32Z <Greenlet "Greenlet-0" at 0x7fed05012db8: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7fecffea3850>>> failed with ConnectionError
+
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+2019-09-25T09:38:32Z <Greenlet "Greenlet-0" at 0x7fed05012998: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7fed044aa750>>> failed with ConnectionError
+
+[2019-10-09 07:22:03 +0000] [71] [INFO] Starting gunicorn 19.3.0
+[2019-10-09 07:22:03 +0000] [71] [INFO] Listening at: http://0.0.0.0:5000 (71)
+[2019-10-09 07:22:03 +0000] [71] [INFO] Using worker: flask_sockets.worker
+[2019-10-09 07:22:03 +0000] [121] [INFO] Booting worker with pid: 121
+[2019-10-09 07:22:03 +0000] [124] [INFO] Booting worker with pid: 124
+[2019-10-09 07:22:03 +0000] [126] [INFO] Booting worker with pid: 126
+[2019-10-09 07:22:03 +0000] [129] [INFO] Booting worker with pid: 129
+[2019-10-09 07:22:10 +0000] [129] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/Sparkling-Data-Drug-Brunel-Python3.ipynb HTTP/1.1" 200 115 0.026885 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:10 +0000] [124] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2BYEZ5EVK/note.json HTTP/1.1" 200 115 0.003855 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:10 +0000] [121] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C2AUG798/note.json HTTP/1.1" 200 115 0.027366 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:10 +0000] [124] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C57UKYWR/note.json HTTP/1.1" 200 115 0.002718 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:10 +0000] [121] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2BWJFTXKJ/note.json HTTP/1.1" 200 115 0.001914 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:10 +0000] [121] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2A94M5J1Z/note.json HTTP/1.1" 200 115 0.001708 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:10 +0000] [121] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/tutorial-python/note.json HTTP/1.1" 200 115 0.001596 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:10 +0000] [124] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/tutorial-scala/note.json HTTP/1.1" 200 115 0.001578 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:10 +0000] [124] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C35YU814/note.json HTTP/1.1" 200 115 0.001523 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:10 +0000] [124] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/Sparkling-Data-Drug-Brunel-Python3.ipynb HTTP/1.1" 200 115 0.010737 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:10 +0000] [124] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2BYEZ5EVK/note.json HTTP/1.1" 200 115 0.001721 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:10 +0000] [124] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C2AUG798/note.json HTTP/1.1" 200 115 0.001562 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:10 +0000] [124] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C57UKYWR/note.json HTTP/1.1" 200 115 0.001484 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:10 +0000] [126] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2BWJFTXKJ/note.json HTTP/1.1" 200 115 0.003643 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:10 +0000] [124] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2A94M5J1Z/note.json HTTP/1.1" 200 115 0.001546 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:11 +0000] [129] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/tutorial-python/note.json HTTP/1.1" 200 115 0.001922 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:11 +0000] [124] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/tutorial-scala/note.json HTTP/1.1" 200 115 0.001569 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:11 +0000] [126] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C35YU814/note.json HTTP/1.1" 200 115 0.001612 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:22:30 +0000] [121] [INFO] 10.42.205.98 - - "GET / HTTP/1.1" 200 37031 0.234468 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:30 +0000] [129] [INFO] 10.42.205.98 - - "GET /common/static/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 121530 0.011920 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:30 +0000] [129] [INFO] 10.42.205.98 - - "GET /static/0.4.1/css/animate.css HTTP/1.1" 200 1071 0.003159 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:30 +0000] [121] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/python-logo.svg HTTP/1.1" 200 269865 0.004665 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:30 +0000] [129] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/dsx_logo.svg HTTP/1.1" 200 1625 0.016358 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:30 +0000] [126] [INFO] 10.42.205.98 - - "GET /static/0.4.1/css/index.css HTTP/1.1" 200 15986 0.017238 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:31 +0000] [124] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/Rlogo.svg HTTP/1.1" 200 2304 0.005324 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:31 +0000] [129] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/scala-logo.png HTTP/1.1" 200 16136 0.001226 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:31 +0000] [129] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/email_logo.png HTTP/1.1" 200 2808 0.002900 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:31 +0000] [121] [INFO] 10.42.205.98 - - "GET /static/0.4.1/js/dist/build.min.js HTTP/1.1" 200 311614 0.063547 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:31 +0000] [126] [INFO] 10.42.205.98 - - "GET /common/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23627 0.003136 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:31 +0000] [129] [INFO] 10.42.205.98 - - "GET /static/0.4.1/fonts/Glyphicons-KAWB.woff HTTP/1.1" 200 2194 0.038430 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:31 +0000] [121] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/icon_tip_48.gif HTTP/1.1" 200 2205 0.002142 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:31 +0000] [121] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/github_logo.png HTTP/1.1" 200 3973 0.002021 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:31 +0000] [126] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/google_drive_logo.png HTTP/1.1" 200 5081 0.002092 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:31 +0000] [124] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/box_logo.png HTTP/1.1" 200 5427 0.003997 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:31 +0000] [126] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/twitter_logo.png HTTP/1.1" 200 3072 0.006359 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:31 +0000] [126] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/dropbox_logo.png HTTP/1.1" 200 6114 0.002568 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:31 +0000] [124] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/facebook_logo.png HTTP/1.1" 200 1826 0.001780 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:31 +0000] [126] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/gist_logo.png HTTP/1.1" 200 3302 0.002914 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:32 +0000] [126] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/background_color_600x423.png HTTP/1.1" 200 34310 0.003051 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:32 +0000] [126] [INFO] 10.42.205.98 - - "GET /pages?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 165 0.001153 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:32 +0000] [121] [INFO] 10.42.205.98 - - "GET /api/v1/resources?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 125 0.000929 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:32 +0000] [126] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/processing_ani_icon_small.gif HTTP/1.1" 200 4013 0.005953 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:32 +0000] [121] [INFO] 10.42.205.98 - - "GET /static/0.4.1/templates/notices.html HTTP/1.1" 200 668 0.001705 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:32 +0000] [129] [INFO] 10.42.205.98 - - "GET /pages/welcome HTTP/1.1" 200 24467 0.129934 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:32 +0000] [121] [INFO] 10.42.205.98 - - "GET /static/0.4.1/templates/sidebar_panel.html HTTP/1.1" 200 1199 0.002158 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:32 +0000] [121] [INFO] 10.42.205.98 - - "GET /static/0.4.1/templates/breadcrumbs_menu.html HTTP/1.1" 200 376 0.001865 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:32 +0000] [121] [INFO] 10.42.205.98 - - "GET /pages/static/images/scala-logo.png HTTP/1.1" 200 16136 0.001299 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:32 +0000] [124] [INFO] 10.42.205.98 - - "GET /pages/static/images/python-logo.svg HTTP/1.1" 200 269865 0.003513 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:32 +0000] [121] [INFO] 10.42.205.98 - - "GET /pages/static/images/Rlogo.svg HTTP/1.1" 200 2304 0.001699 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:32 +0000] [121] [INFO] 10.42.205.98 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:32 +0000] [124] [INFO] 10.42.205.98 - - "GET /static/0.4.1/templates/frecent_resources.html HTTP/1.1" 200 646 0.001798 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:32 +0000] [121] [INFO] 10.42.205.98 - - "GET /static/0.4.1/templates/resource_menu.html HTTP/1.1" 200 6241 0.009597 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:33 +0000] [124] [INFO] 10.42.205.98 - - "GET /static/0.4.1/templates/breadcrumbs.html HTTP/1.1" 200 1615 0.001651 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:33 +0000] [121] [INFO] 10.42.205.98 - - "GET /api/v1/resources?type=data&limit=10 HTTP/1.1" 200 3556 0.292838 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:33 +0000] [124] [INFO] 10.42.205.98 - - "GET /api/v1/resources?type=notebook&limit=10 HTTP/1.1" 200 3182 0.294196 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:33 +0000] [121] [INFO] 10.42.205.98 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:22:33 +0000] [121] [INFO] 10.42.205.98 - - "GET /static/0.4.1/templates/resources_list.html HTTP/1.1" 200 1884 0.005863 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:28:24 +0000] [124] [INFO] 10.42.205.98 - - "GET /api/v1/resources/Untitled0.ipynb?view=edit HTTP/1.1" 302 519 0.004441 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:28:24 +0000] [121] [INFO] 10.42.205.98 - - "GET /static/0.4.1/images/processing_ani_icon_medium.gif HTTP/1.1" 200 13331 0.002404 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:28:31 +0000] [124] [INFO] 10.42.205.98 - - "PUT /api/v1/resources/Untitled0.ipynb HTTP/1.1" 200 485 0.036771 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:30:19 +0000] [124] [INFO] 10.42.205.98 - - "GET /api/v1/resources/Untitled.ipynb?view=edit HTTP/1.1" 302 516 0.003027 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:30:24 +0000] [124] [INFO] 10.42.205.98 - - "PUT /api/v1/resources/Untitled.ipynb HTTP/1.1" 200 480 0.178598 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:37:33 +0000] [126] [INFO] 10.42.205.98 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:40:03 +0000] [126] [INFO] 10.42.205.98 - - "GET / HTTP/1.1" 200 37031 0.267735 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:40:03 +0000] [126] [INFO] 10.42.205.98 - - "GET /pages/welcome HTTP/1.1" 200 24325 0.107735 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:40:04 +0000] [124] [INFO] 10.42.205.98 - - "GET /api/v1/resources?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 125 0.000945 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:40:04 +0000] [129] [INFO] 10.42.205.98 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:40:04 +0000] [126] [INFO] 10.42.205.98 - - "GET /pages?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 165 0.001057 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:40:04 +0000] [126] [INFO] 10.42.205.98 - - "GET /api/v1/resources?type=notebook&limit=10 HTTP/1.1" 200 3183 0.044313 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:40:04 +0000] [121] [INFO] 10.42.205.98 - - "GET /api/v1/resources?type=data&limit=10 HTTP/1.1" 200 3540 0.021157 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:40:04 +0000] [121] [INFO] 10.42.205.98 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:40:08 +0000] [124] [INFO] 10.42.205.98 - - "GET /api/v1/resources/Untitled0.ipynb?view=edit HTTP/1.1" 302 519 0.002740 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:40:13 +0000] [126] [INFO] 10.42.205.98 - - "PUT /api/v1/resources/Untitled0.ipynb HTTP/1.1" 200 485 0.119736 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:40:58 +0000] [124] [INFO] 10.42.205.98 - - "POST /api/v1/resources HTTP/1.1" 200 486 0.079383 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:40:58 +0000] [124] [INFO] 10.42.190.215 - - "PUT /api/v1/notify/resources/Untitled1.ipynb HTTP/1.1" 200 115 0.011487 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-09 07:40:58 +0000] [124] [INFO] 10.42.205.98 - - "GET /api/v1/resources/Untitled1.ipynb?view=edit HTTP/1.1" 302 519 0.001837 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-09 07:41:03 +0000] [124] [INFO] 10.42.205.98 - - "PUT /api/v1/resources/Untitled1.ipynb HTTP/1.1" 200 485 0.146138 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+[2019-10-09 09:15:22 +0000] [71] [INFO] Handling signal: term
+    for msg in self._iter_hub():
+    for msg in self._iter_hub():
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    for redis_msg in self.hub.listen():
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    response = self.handle_message(self.parse_response(block=True))
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    return self._execute(connection, connection.read_response)
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    raise ConnectionError(self._error_message(e))
+    raise ConnectionError(self._error_message(e))
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+2019-10-09T09:15:22Z 2019-10-09T09:15:22Z2019-10-09T09:15:22Z  2019-10-09T09:15:22Z <Greenlet "Greenlet-0" at 0x7f707adfaba8: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7f707acf4990>>> failed with ConnectionError
+
+<Greenlet "Greenlet-0" at 0x7f707adfa998: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7f707acf4710>>> failed with ConnectionError
+
+<Greenlet "Greenlet-0" at 0x7f707ad3c998: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7f707acf4610>>> failed with ConnectionError
+
+<Greenlet "Greenlet-0" at 0x7f707adfa998: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7f707acf4690>>> failed with ConnectionError
+
+[2019-10-09 09:15:22 +0000] [124] [INFO] Worker exiting (pid: 124)
+[2019-10-15 07:40:49 +0000] [111] [INFO] Starting gunicorn 19.3.0
+[2019-10-15 07:40:49 +0000] [111] [INFO] Listening at: http://0.0.0.0:5000 (111)
+[2019-10-15 07:40:49 +0000] [111] [INFO] Using worker: flask_sockets.worker
+[2019-10-15 07:40:49 +0000] [116] [INFO] Booting worker with pid: 116
+[2019-10-15 07:40:49 +0000] [117] [INFO] Booting worker with pid: 117
+[2019-10-15 07:40:49 +0000] [118] [INFO] Booting worker with pid: 118
+[2019-10-15 07:40:49 +0000] [119] [INFO] Booting worker with pid: 119
+[2019-10-15 07:41:22 +0000] [119] [INFO] 10.42.148.111 - - "GET / HTTP/1.1" 200 37031 0.248736 "python-requests/2.21.0"
+[2019-10-15 07:41:24 +0000] [116] [INFO] 10.42.148.111 - - "GET / HTTP/1.1" 200 37031 0.243529 "python-requests/2.21.0"
+[2019-10-15 07:41:26 +0000] [116] [INFO] 10.42.148.111 - - "GET / HTTP/1.1" 200 37031 0.039295 "python-requests/2.21.0"
+[2019-10-15 07:41:27 +0000] [117] [INFO] 10.42.148.111 - - "GET / HTTP/1.1" 200 37031 0.220483 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:27 +0000] [116] [INFO] 10.42.148.111 - - "GET /common/static/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 121530 0.007273 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:28 +0000] [119] [INFO] 10.42.148.111 - - "GET /static/0.4.1/css/index.css HTTP/1.1" 200 15986 0.003861 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:28 +0000] [116] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/python-logo.svg HTTP/1.1" 200 269865 0.058264 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:28 +0000] [117] [INFO] 10.42.148.111 - - "GET /static/0.4.1/css/animate.css HTTP/1.1" 200 1071 0.007893 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:28 +0000] [118] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/dsx_logo.svg HTTP/1.1" 200 1625 0.004279 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:28 +0000] [118] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/scala-logo.png HTTP/1.1" 200 16136 0.001581 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:28 +0000] [119] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/email_logo.png HTTP/1.1" 200 2808 0.001463 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:28 +0000] [116] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/Rlogo.svg HTTP/1.1" 200 2304 0.001114 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:28 +0000] [116] [INFO] 10.42.148.111 - - "GET /static/0.4.1/js/dist/build.min.js HTTP/1.1" 200 311614 0.009862 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:29 +0000] [119] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/github_logo.png HTTP/1.1" 200 3973 0.001422 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:29 +0000] [119] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/google_drive_logo.png HTTP/1.1" 200 5081 0.001022 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:29 +0000] [117] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/box_logo.png HTTP/1.1" 200 5427 0.001317 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:29 +0000] [119] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/dropbox_logo.png HTTP/1.1" 200 6114 0.001167 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:29 +0000] [118] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/twitter_logo.png HTTP/1.1" 200 3072 0.001366 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:29 +0000] [116] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/facebook_logo.png HTTP/1.1" 200 1826 0.001486 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:29 +0000] [116] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/gist_logo.png HTTP/1.1" 200 3302 0.001192 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:29 +0000] [116] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/icon_tip_48.gif HTTP/1.1" 200 2205 0.001427 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:29 +0000] [117] [INFO] 10.42.148.111 - - "GET /common/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23627 0.001690 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:29 +0000] [119] [INFO] 10.42.148.111 - - "GET /static/0.4.1/fonts/Glyphicons-KAWB.woff HTTP/1.1" 200 2194 0.001323 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:30 +0000] [116] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/background_color_600x423.png HTTP/1.1" 200 34310 0.001722 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:30 +0000] [116] [INFO] 10.42.148.111 - - "GET /api/v1/resources?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 125 0.001009 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:30 +0000] [119] [INFO] 10.42.148.111 - - "GET /pages?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 165 0.001411 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:30 +0000] [119] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/processing_ani_icon_small.gif HTTP/1.1" 200 4013 0.001121 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:30 +0000] [116] [INFO] 10.42.148.111 - - "GET /pages/welcome HTTP/1.1" 200 24522 0.138936 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:30 +0000] [116] [INFO] 10.42.148.111 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:30 +0000] [118] [INFO] 10.42.148.111 - - "GET /pages/static/images/Rlogo.svg HTTP/1.1" 200 2304 0.001423 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:30 +0000] [118] [INFO] 10.42.148.111 - - "GET /pages/static/images/scala-logo.png HTTP/1.1" 200 16136 0.001088 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:30 +0000] [116] [INFO] 10.42.148.111 - - "GET /pages/static/images/python-logo.svg HTTP/1.1" 200 269865 0.008559 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:31 +0000] [116] [INFO] 10.42.148.111 - - "GET /static/0.4.1/templates/notices.html HTTP/1.1" 200 668 0.001396 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:31 +0000] [116] [INFO] 10.42.148.111 - - "GET /static/0.4.1/templates/sidebar_panel.html HTTP/1.1" 200 1199 0.000976 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:31 +0000] [119] [INFO] 10.42.148.111 - - "GET /static/0.4.1/templates/breadcrumbs_menu.html HTTP/1.1" 200 376 0.001357 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:31 +0000] [116] [INFO] 10.42.148.111 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:32 +0000] [117] [INFO] 10.42.148.111 - - "GET /static/0.4.1/templates/resource_menu.html HTTP/1.1" 200 6241 0.001486 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:32 +0000] [116] [INFO] 10.42.148.111 - - "GET /static/0.4.1/templates/frecent_resources.html HTTP/1.1" 200 646 0.001559 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:32 +0000] [116] [INFO] 10.42.148.111 - - "GET /api/v1/resources?type=data&limit=10 HTTP/1.1" 200 3540 0.620253 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:32 +0000] [118] [INFO] 10.42.148.111 - - "GET /api/v1/resources?type=notebook&limit=10 HTTP/1.1" 200 3545 0.620680 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:33 +0000] [116] [INFO] 10.42.148.111 - - "GET /static/0.4.1/templates/breadcrumbs.html HTTP/1.1" 200 1615 0.001433 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:41:34 +0000] [116] [INFO] 10.42.148.111 - - "GET /static/0.4.1/templates/resources_list.html HTTP/1.1" 200 1884 0.001449 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:42:52 +0000] [117] [INFO] 10.42.148.111 - - "POST /api/v1/resources HTTP/1.1" 200 486 0.017483 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:42:53 +0000] [116] [INFO] 10.42.148.111 - - "GET /api/v1/resources/Untitled2.ipynb?view=edit HTTP/1.1" 302 519 0.013479 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:42:53 +0000] [117] [INFO] 10.42.148.111 - - "GET /static/0.4.1/images/processing_ani_icon_medium.gif HTTP/1.1" 200 13331 0.001540 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 07:43:00 +0000] [116] [INFO] 10.42.148.111 - - "PUT /api/v1/resources/Untitled2.ipynb HTTP/1.1" 200 485 0.074853 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 08:15:42 +0000] [117] [INFO] 10.42.148.111 - - "GET /api/v1/resources/Untitled1.ipynb?view=edit HTTP/1.1" 302 519 0.004291 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 08:15:46 +0000] [116] [INFO] 10.42.148.111 - - "PUT /api/v1/resources/Untitled1.ipynb HTTP/1.1" 200 485 0.177570 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 08:15:49 +0000] [116] [INFO] 10.42.148.111 - - "GET /api/v1/resources/Untitled0.ipynb?view=edit HTTP/1.1" 302 519 0.017562 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-15 08:15:53 +0000] [117] [INFO] 10.42.148.111 - - "PUT /api/v1/resources/Untitled0.ipynb HTTP/1.1" 200 485 0.114188 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+2019-10-15T09:45:24Z <Greenlet "Greenlet-0" at 0x7fbc6b070ec0: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7fbc6a17cf50>>> failed with ConnectionError
+
+[2019-10-15 09:45:24 +0000] [111] [INFO] Handling signal: term
+[2019-10-15 09:45:25 +0000] [117] [INFO] Worker exiting (pid: 117)
+[2019-10-15 09:45:25 +0000] [118] [INFO] Worker exiting (pid: 118)
+[2019-10-15 09:45:25 +0000] [119] [INFO] Worker exiting (pid: 119)
+[2019-10-16 01:51:38 +0000] [162] [INFO] Starting gunicorn 19.3.0
+[2019-10-16 01:51:38 +0000] [162] [INFO] Listening at: http://0.0.0.0:5000 (162)
+[2019-10-16 01:51:38 +0000] [162] [INFO] Using worker: flask_sockets.worker
+[2019-10-16 01:51:38 +0000] [240] [INFO] Booting worker with pid: 240
+[2019-10-16 01:51:38 +0000] [244] [INFO] Booting worker with pid: 244
+[2019-10-16 01:51:38 +0000] [248] [INFO] Booting worker with pid: 248
+[2019-10-16 01:51:39 +0000] [250] [INFO] Booting worker with pid: 250
+[2019-10-16 01:51:58 +0000] [248] [INFO] 10.42.235.180 - - "GET / HTTP/1.1" 200 37031 0.316785 "python-requests/2.21.0"
+[2019-10-16 01:52:00 +0000] [244] [INFO] 10.42.235.180 - - "GET / HTTP/1.1" 200 37031 0.312693 "python-requests/2.21.0"
+[2019-10-16 01:52:02 +0000] [244] [INFO] 10.42.235.180 - - "GET / HTTP/1.1" 200 37031 0.034291 "python-requests/2.21.0"
+[2019-10-16 01:52:03 +0000] [240] [INFO] 10.42.235.180 - - "GET / HTTP/1.1" 200 37031 0.316178 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:04 +0000] [248] [INFO] 10.42.235.180 - - "GET /common/static/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 121530 0.009275 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:04 +0000] [244] [INFO] 10.42.235.180 - - "GET /static/0.4.1/css/animate.css HTTP/1.1" 200 1071 0.022603 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:04 +0000] [248] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/dsx_logo.svg HTTP/1.1" 200 1625 0.003362 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:04 +0000] [244] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/python-logo.svg HTTP/1.1" 200 269865 0.007922 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:04 +0000] [250] [INFO] 10.42.235.180 - - "GET /static/0.4.1/css/index.css HTTP/1.1" 200 15986 0.030417 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:04 +0000] [244] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/email_logo.png HTTP/1.1" 200 2808 0.001821 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:04 +0000] [248] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/scala-logo.png HTTP/1.1" 200 16136 0.001890 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:04 +0000] [244] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/Rlogo.svg HTTP/1.1" 200 2304 0.001489 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:04 +0000] [250] [INFO] 10.42.235.180 - - "GET /static/0.4.1/js/dist/build.min.js HTTP/1.1" 200 311614 0.034082 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:04 +0000] [240] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/github_logo.png HTTP/1.1" 200 3973 0.004925 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:05 +0000] [248] [INFO] 10.42.235.180 - - "GET /common/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23627 0.002150 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:05 +0000] [250] [INFO] 10.42.235.180 - - "GET /static/0.4.1/fonts/Glyphicons-KAWB.woff HTTP/1.1" 200 2194 0.001917 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:05 +0000] [248] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/icon_tip_48.gif HTTP/1.1" 200 2205 0.001769 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:05 +0000] [244] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/google_drive_logo.png HTTP/1.1" 200 5081 0.002115 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:05 +0000] [244] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/box_logo.png HTTP/1.1" 200 5427 0.001689 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:05 +0000] [244] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/dropbox_logo.png HTTP/1.1" 200 6114 0.001323 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:05 +0000] [244] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/twitter_logo.png HTTP/1.1" 200 3072 0.001973 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:05 +0000] [240] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/facebook_logo.png HTTP/1.1" 200 1826 0.001742 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:05 +0000] [244] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/gist_logo.png HTTP/1.1" 200 3302 0.001429 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:05 +0000] [240] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/processing_ani_icon_small.gif HTTP/1.1" 200 4013 0.001972 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:05 +0000] [240] [INFO] 10.42.235.180 - - "GET /static/0.4.1/templates/notices.html HTTP/1.1" 200 668 0.001361 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:05 +0000] [248] [INFO] 10.42.235.180 - - "GET /api/v1/resources?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 125 0.001698 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:05 +0000] [250] [INFO] 10.42.235.180 - - "GET /pages?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 165 0.063241 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:06 +0000] [244] [INFO] 10.42.235.180 - - "GET /pages/welcome HTTP/1.1" 200 24340 0.247809 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:06 +0000] [244] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/background_color_600x423.png HTTP/1.1" 200 34310 0.001865 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:06 +0000] [250] [INFO] 10.42.235.180 - - "GET /static/0.4.1/templates/sidebar_panel.html HTTP/1.1" 200 1199 0.001847 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:06 +0000] [248] [INFO] 10.42.235.180 - - "GET /static/0.4.1/templates/breadcrumbs_menu.html HTTP/1.1" 200 376 0.001738 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:06 +0000] [240] [INFO] 10.42.235.180 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:06 +0000] [244] [INFO] 10.42.235.180 - - "GET /pages/static/images/Rlogo.svg HTTP/1.1" 200 2304 0.001759 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:06 +0000] [250] [INFO] 10.42.235.180 - - "GET /pages/static/images/scala-logo.png HTTP/1.1" 200 16136 0.001841 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:06 +0000] [244] [INFO] 10.42.235.180 - - "GET /pages/static/images/python-logo.svg HTTP/1.1" 200 269865 0.019087 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:06 +0000] [244] [INFO] 10.42.235.180 - - "GET /static/0.4.1/templates/frecent_resources.html HTTP/1.1" 200 646 0.001906 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:06 +0000] [244] [INFO] 10.42.235.180 - - "GET /static/0.4.1/templates/resource_menu.html HTTP/1.1" 200 6241 0.001324 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:06 +0000] [240] [INFO] 10.42.235.180 - - "GET /static/0.4.1/templates/breadcrumbs.html HTTP/1.1" 200 1615 0.001874 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:06 +0000] [248] [INFO] 10.42.235.180 - - "GET /api/v1/resources?type=notebook&limit=10 HTTP/1.1" 200 4164 0.188121 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:06 +0000] [244] [INFO] 10.42.235.180 - - "GET /api/v1/resources?type=data&limit=10 HTTP/1.1" 200 3540 0.195936 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:07 +0000] [244] [INFO] 10.42.235.180 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:07 +0000] [244] [INFO] 10.42.235.180 - - "GET /static/0.4.1/templates/resources_list.html HTTP/1.1" 200 1884 0.001827 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:11 +0000] [250] [INFO] 10.42.235.180 - - "GET /static/0.4.1/images/processing_ani_icon_medium.gif HTTP/1.1" 200 13331 0.002085 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:12 +0000] [250] [INFO] 10.42.235.180 - - "GET /api/v1/resources/SVM%20Visualization.ipynb?view=edit HTTP/1.1" 302 549 0.071009 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:52:19 +0000] [248] [INFO] 10.42.235.180 - - "PUT /api/v1/resources/SVM%20Visualization.ipynb HTTP/1.1" 200 531 0.150919 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:56:12 +0000] [248] [INFO] 10.42.235.180 - - "POST /api/v1/resources HTTP/1.1" 200 486 0.077985 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:56:12 +0000] [244] [INFO] 10.42.235.180 - - "GET /api/v1/resources/Untitled2.ipynb?view=edit HTTP/1.1" 302 519 0.023410 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-16 01:56:17 +0000] [244] [INFO] 10.42.235.180 - - "PUT /api/v1/resources/Untitled2.ipynb HTTP/1.1" 200 485 0.170127 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+2019-10-16T03:00:18Z 2019-10-16T03:00:18Z <Greenlet "Greenlet-0" at 0x7f999eb1adb8: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7f999daec510>>> failed with ConnectionError
+
+<Greenlet "Greenlet-0" at 0x7f999ea5cec0: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7f999ea0e590>>> failed with ConnectionError
+
+[2019-10-16 03:00:18 +0000] [162] [INFO] Handling signal: term
+[2019-10-16 03:00:18 +0000] [248] [INFO] Worker exiting (pid: 248)
+[2019-10-16 03:00:19 +0000] [250] [INFO] Worker exiting (pid: 250)
+[2019-10-17 07:00:49 +0000] [119] [INFO] Starting gunicorn 19.3.0
+[2019-10-17 07:00:49 +0000] [119] [INFO] Listening at: http://0.0.0.0:5000 (119)
+[2019-10-17 07:00:49 +0000] [119] [INFO] Using worker: flask_sockets.worker
+[2019-10-17 07:00:49 +0000] [173] [INFO] Booting worker with pid: 173
+[2019-10-17 07:00:49 +0000] [174] [INFO] Booting worker with pid: 174
+[2019-10-17 07:00:49 +0000] [175] [INFO] Booting worker with pid: 175
+[2019-10-17 07:00:49 +0000] [176] [INFO] Booting worker with pid: 176
+[2019-10-17 07:01:06 +0000] [174] [INFO] 10.42.113.6 - - "GET / HTTP/1.1" 200 37031 0.364203 "python-requests/2.21.0"
+[2019-10-17 07:01:08 +0000] [173] [INFO] 10.42.113.6 - - "GET / HTTP/1.1" 200 37031 0.347343 "python-requests/2.21.0"
+[2019-10-17 07:01:10 +0000] [176] [INFO] 10.42.113.6 - - "GET / HTTP/1.1" 200 37031 0.349024 "python-requests/2.21.0"
+[2019-10-17 07:01:12 +0000] [175] [INFO] 10.42.113.6 - - "GET / HTTP/1.1" 200 37031 0.358717 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:12 +0000] [176] [INFO] 10.42.113.6 - - "GET /common/static/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 121530 0.009233 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:13 +0000] [173] [INFO] 10.42.113.6 - - "GET /static/0.4.1/css/index.css HTTP/1.1" 200 15986 0.033044 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:13 +0000] [174] [INFO] 10.42.113.6 - - "GET /static/0.4.1/css/animate.css HTTP/1.1" 200 1071 0.004928 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:13 +0000] [175] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/dsx_logo.svg HTTP/1.1" 200 1625 0.004895 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:13 +0000] [176] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/python-logo.svg HTTP/1.1" 200 269865 0.038913 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:13 +0000] [176] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/Rlogo.svg HTTP/1.1" 200 2304 0.001880 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:13 +0000] [174] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/scala-logo.png HTTP/1.1" 200 16136 0.001940 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:13 +0000] [175] [INFO] 10.42.113.6 - - "GET /static/0.4.1/js/dist/build.min.js HTTP/1.1" 200 311614 0.041872 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:13 +0000] [175] [INFO] 10.42.113.6 - - "GET /common/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23627 0.002029 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:14 +0000] [176] [INFO] 10.42.113.6 - - "GET /static/0.4.1/fonts/Glyphicons-KAWB.woff HTTP/1.1" 200 2194 0.001829 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:14 +0000] [175] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/icon_tip_48.gif HTTP/1.1" 200 2205 0.001888 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:14 +0000] [175] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/email_logo.png HTTP/1.1" 200 2808 0.001898 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:14 +0000] [176] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/github_logo.png HTTP/1.1" 200 3973 0.001780 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:15 +0000] [174] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/box_logo.png HTTP/1.1" 200 5427 0.001762 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:15 +0000] [173] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/twitter_logo.png HTTP/1.1" 200 3072 0.001596 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:15 +0000] [175] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/facebook_logo.png HTTP/1.1" 200 1826 0.001647 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:15 +0000] [174] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/dropbox_logo.png HTTP/1.1" 200 6114 0.002047 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:15 +0000] [175] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/google_drive_logo.png HTTP/1.1" 200 5081 0.002035 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:15 +0000] [173] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/gist_logo.png HTTP/1.1" 200 3302 0.001788 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:15 +0000] [173] [INFO] 10.42.113.6 - - "GET /pages?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 165 0.001793 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:15 +0000] [176] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/processing_ani_icon_small.gif HTTP/1.1" 200 4013 0.001841 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:15 +0000] [174] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/background_color_600x423.png HTTP/1.1" 200 34310 0.001972 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:15 +0000] [174] [INFO] 10.42.113.6 - - "GET /api/v1/resources?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 125 0.025812 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:15 +0000] [176] [INFO] 10.42.113.6 - - "GET /static/0.4.1/templates/notices.html HTTP/1.1" 200 668 0.001944 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:16 +0000] [173] [INFO] 10.42.113.6 - - "GET /pages/welcome HTTP/1.1" 200 24458 0.237785 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:16 +0000] [175] [INFO] 10.42.113.6 - - "GET /static/0.4.1/templates/sidebar_panel.html HTTP/1.1" 200 1199 0.001860 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:16 +0000] [174] [INFO] 10.42.113.6 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:16 +0000] [174] [INFO] 10.42.113.6 - - "GET /static/0.4.1/templates/breadcrumbs_menu.html HTTP/1.1" 200 376 0.001812 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:16 +0000] [173] [INFO] 10.42.113.6 - - "GET /pages/static/images/scala-logo.png HTTP/1.1" 200 16136 0.001979 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:16 +0000] [176] [INFO] 10.42.113.6 - - "GET /pages/static/images/Rlogo.svg HTTP/1.1" 200 2304 0.001735 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:16 +0000] [176] [INFO] 10.42.113.6 - - "GET /pages/static/images/python-logo.svg HTTP/1.1" 200 269865 0.013016 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:16 +0000] [175] [INFO] 10.42.113.6 - - "GET /static/0.4.1/templates/frecent_resources.html HTTP/1.1" 200 646 0.001781 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:16 +0000] [174] [INFO] 10.42.113.6 - - "GET /static/0.4.1/templates/resource_menu.html HTTP/1.1" 200 6241 0.001787 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:17 +0000] [176] [INFO] 10.42.113.6 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:17 +0000] [174] [INFO] 10.42.113.6 - - "GET /static/0.4.1/templates/breadcrumbs.html HTTP/1.1" 200 1615 0.001696 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:17 +0000] [175] [INFO] 10.42.113.6 - - "GET /api/v1/resources?type=notebook&limit=10 HTTP/1.1" 200 4734 0.250037 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:17 +0000] [176] [INFO] 10.42.113.6 - - "GET /api/v1/resources?type=data&limit=10 HTTP/1.1" 200 3540 0.200601 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:17 +0000] [173] [INFO] 10.42.113.6 - - "GET /static/0.4.1/templates/resources_list.html HTTP/1.1" 200 1884 0.001826 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:23 +0000] [175] [INFO] 10.42.113.6 - - "GET /static/0.4.1/images/processing_ani_icon_medium.gif HTTP/1.1" 200 13331 0.014203 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:23 +0000] [176] [INFO] 10.42.113.6 - - "GET /api/v1/resources/SVM%20Visualization.ipynb?view=edit HTTP/1.1" 302 549 0.043095 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 07:01:34 +0000] [174] [INFO] 10.42.113.6 - - "PUT /api/v1/resources/SVM%20Visualization.ipynb HTTP/1.1" 200 531 0.188549 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+[2019-10-17 08:03:31 +0000] [119] [INFO] Handling signal: term
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+2019-10-17T08:03:31Z <Greenlet "Greenlet-0" at 0x7f339ba2daa0: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7f339a947e50>>> failed with ConnectionError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+2019-10-17T08:03:31Z <Greenlet "Greenlet-0" at 0x7f339ba2d998: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7f339b927750>>> failed with ConnectionError
+
+[2019-10-17 08:03:31 +0000] [173] [INFO] Worker exiting (pid: 173)
+[2019-10-17 08:03:31 +0000] [175] [INFO] Worker exiting (pid: 175)
+[2019-10-17 10:26:48 +0000] [138] [INFO] Starting gunicorn 19.3.0
+[2019-10-17 10:26:48 +0000] [138] [INFO] Listening at: http://0.0.0.0:5000 (138)
+[2019-10-17 10:26:48 +0000] [138] [INFO] Using worker: flask_sockets.worker
+[2019-10-17 10:26:48 +0000] [207] [INFO] Booting worker with pid: 207
+[2019-10-17 10:26:48 +0000] [211] [INFO] Booting worker with pid: 211
+[2019-10-17 10:26:48 +0000] [215] [INFO] Booting worker with pid: 215
+[2019-10-17 10:26:48 +0000] [217] [INFO] Booting worker with pid: 217
+[2019-10-17 10:27:08 +0000] [217] [INFO] 10.42.70.39 - - "GET / HTTP/1.1" 200 37031 0.371356 "python-requests/2.21.0"
+[2019-10-17 10:27:10 +0000] [215] [INFO] 10.42.70.39 - - "GET / HTTP/1.1" 200 37031 0.357532 "python-requests/2.21.0"
+[2019-10-17 10:27:13 +0000] [217] [INFO] 10.42.70.39 - - "GET / HTTP/1.1" 200 37031 0.045157 "python-requests/2.21.0"
+[2019-10-17 10:27:17 +0000] [207] [INFO] 10.42.70.39 - - "GET / HTTP/1.1" 200 37031 0.367938 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:18 +0000] [211] [INFO] 10.42.70.39 - - "GET /static/0.4.1/css/index.css HTTP/1.1" 200 15986 0.012128 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:18 +0000] [217] [INFO] 10.42.70.39 - - "GET /common/static/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 121530 0.013049 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:19 +0000] [217] [INFO] 10.42.70.39 - - "GET /static/0.4.1/css/animate.css HTTP/1.1" 200 1071 0.001802 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:19 +0000] [207] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/dsx_logo.svg HTTP/1.1" 200 1625 0.006166 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:19 +0000] [211] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/python-logo.svg HTTP/1.1" 200 269865 0.009555 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:20 +0000] [217] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/scala-logo.png HTTP/1.1" 200 16136 0.002039 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:20 +0000] [211] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/Rlogo.svg HTTP/1.1" 200 2304 0.001804 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:20 +0000] [217] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/email_logo.png HTTP/1.1" 200 2808 0.001910 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:20 +0000] [207] [INFO] 10.42.70.39 - - "GET /static/0.4.1/js/dist/build.min.js HTTP/1.1" 200 311614 0.063585 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:21 +0000] [211] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/github_logo.png HTTP/1.1" 200 3973 0.001834 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:21 +0000] [211] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/box_logo.png HTTP/1.1" 200 5427 0.001951 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:21 +0000] [215] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/dropbox_logo.png HTTP/1.1" 200 6114 0.016972 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:21 +0000] [207] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/google_drive_logo.png HTTP/1.1" 200 5081 0.009938 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:21 +0000] [207] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/twitter_logo.png HTTP/1.1" 200 3072 0.001846 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:21 +0000] [217] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/facebook_logo.png HTTP/1.1" 200 1826 0.002044 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:21 +0000] [211] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/gist_logo.png HTTP/1.1" 200 3302 0.002070 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:26 +0000] [217] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/icon_tip_48.gif HTTP/1.1" 200 2205 0.001834 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:27 +0000] [217] [INFO] 10.42.70.39 - - "GET /static/0.4.1/fonts/Glyphicons-KAWB.woff HTTP/1.1" 200 2194 0.001923 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:27 +0000] [215] [INFO] 10.42.70.39 - - "GET /common/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23627 0.002197 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:27 +0000] [217] [INFO] 10.42.70.39 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:27 +0000] [211] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/background_color_600x423.png HTTP/1.1" 200 34310 0.002116 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:28 +0000] [207] [INFO] 10.42.70.39 - - "GET /api/v1/resources?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 125 0.002489 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:28 +0000] [217] [INFO] 10.42.70.39 - - "GET /pages?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 165 0.013843 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:28 +0000] [215] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/processing_ani_icon_small.gif HTTP/1.1" 200 4013 0.001877 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:28 +0000] [211] [INFO] 10.42.70.39 - - "GET /pages/welcome HTTP/1.1" 200 24475 0.245081 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:28 +0000] [217] [INFO] 10.42.70.39 - - "GET /static/0.4.1/templates/notices.html HTTP/1.1" 200 668 0.001765 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:28 +0000] [217] [INFO] 10.42.70.39 - - "GET /static/0.4.1/templates/sidebar_panel.html HTTP/1.1" 200 1199 0.001365 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:28 +0000] [211] [INFO] 10.42.70.39 - - "GET /pages/static/images/python-logo.svg HTTP/1.1" 200 269865 0.011501 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:28 +0000] [215] [INFO] 10.42.70.39 - - "GET /pages/static/images/Rlogo.svg HTTP/1.1" 200 2304 0.001676 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:28 +0000] [207] [INFO] 10.42.70.39 - - "GET /pages/static/images/scala-logo.png HTTP/1.1" 200 16136 0.006315 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:28 +0000] [217] [INFO] 10.42.70.39 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:29 +0000] [217] [INFO] 10.42.70.39 - - "GET /static/0.4.1/templates/breadcrumbs_menu.html HTTP/1.1" 200 376 0.001928 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:29 +0000] [211] [INFO] 10.42.70.39 - - "GET /static/0.4.1/templates/frecent_resources.html HTTP/1.1" 200 646 0.001845 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:30 +0000] [211] [INFO] 10.42.70.39 - - "GET /static/0.4.1/templates/resource_menu.html HTTP/1.1" 200 6241 0.001969 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:30 +0000] [207] [INFO] 10.42.70.39 - - "GET /api/v1/resources?type=data&limit=10 HTTP/1.1" 200 3540 0.295487 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:30 +0000] [207] [INFO] 10.42.70.39 - - "GET /api/v1/resources?type=notebook&limit=10 HTTP/1.1" 200 4734 0.308593 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:32 +0000] [211] [INFO] 10.42.70.39 - - "GET /static/0.4.1/templates/resources_list.html HTTP/1.1" 200 1884 0.001863 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:27:32 +0000] [207] [INFO] 10.42.70.39 - - "GET /static/0.4.1/templates/breadcrumbs.html HTTP/1.1" 200 1615 0.001590 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:42:54 +0000] [211] [INFO] 10.42.70.39 - - "GET /static/0.4.1/images/processing_ani_icon_medium.gif HTTP/1.1" 200 13331 0.001896 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:42:54 +0000] [207] [INFO] 10.42.70.39 - - "GET /api/v1/resources/SVM%20Visualization.ipynb?view=edit HTTP/1.1" 302 549 0.137829 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 10:43:09 +0000] [211] [INFO] 10.42.70.39 - - "PUT /api/v1/resources/SVM%20Visualization.ipynb HTTP/1.1" 200 531 0.190866 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+2019-10-17T11:59:17Z <Greenlet "Greenlet-0" at 0x7f4c2231cdb8: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7f4c21368f50>>> failed with ConnectionError
+
+[2019-10-17 11:59:17 +0000] [138] [INFO] Handling signal: term
+[2019-10-17 11:59:17 +0000] [207] [INFO] Worker exiting (pid: 207)
+[2019-10-17 11:59:18 +0000] [211] [INFO] Worker exiting (pid: 211)
+[2019-10-17 11:59:18 +0000] [215] [INFO] Worker exiting (pid: 215)
+[2019-10-17 12:06:41 +0000] [159] [INFO] Starting gunicorn 19.3.0
+[2019-10-17 12:06:41 +0000] [159] [INFO] Listening at: http://0.0.0.0:5000 (159)
+[2019-10-17 12:06:41 +0000] [159] [INFO] Using worker: flask_sockets.worker
+[2019-10-17 12:06:41 +0000] [212] [INFO] Booting worker with pid: 212
+[2019-10-17 12:06:41 +0000] [214] [INFO] Booting worker with pid: 214
+[2019-10-17 12:06:41 +0000] [217] [INFO] Booting worker with pid: 217
+[2019-10-17 12:06:41 +0000] [219] [INFO] Booting worker with pid: 219
+[2019-10-17 12:06:46 +0000] [212] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/Sparkling-Data-Drug-Brunel-Python3.ipynb HTTP/1.1" 200 115 0.021386 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:46 +0000] [214] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/SVM%20Visualization.ipynb HTTP/1.1" 200 115 0.012891 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:46 +0000] [212] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2BYEZ5EVK/note.json HTTP/1.1" 200 115 0.001728 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:46 +0000] [217] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C2AUG798/note.json HTTP/1.1" 200 115 0.003740 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:46 +0000] [219] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C57UKYWR/note.json HTTP/1.1" 200 115 0.003905 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:46 +0000] [217] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2BWJFTXKJ/note.json HTTP/1.1" 200 115 0.001780 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:46 +0000] [219] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2A94M5J1Z/note.json HTTP/1.1" 200 115 0.001635 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:46 +0000] [219] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/tutorial-python/note.json HTTP/1.1" 200 115 0.001556 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:46 +0000] [219] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/tutorial-scala/note.json HTTP/1.1" 200 115 0.003349 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:46 +0000] [219] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C35YU814/note.json HTTP/1.1" 200 115 0.001738 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:46 +0000] [212] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/Sparkling-Data-Drug-Brunel-Python3.ipynb HTTP/1.1" 200 115 0.023073 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:46 +0000] [212] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/SVM%20Visualization.ipynb HTTP/1.1" 200 115 0.008607 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:46 +0000] [212] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2BYEZ5EVK/note.json HTTP/1.1" 200 115 0.001726 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:46 +0000] [212] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C2AUG798/note.json HTTP/1.1" 200 115 0.001381 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:46 +0000] [219] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C57UKYWR/note.json HTTP/1.1" 200 115 0.001639 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:46 +0000] [214] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2BWJFTXKJ/note.json HTTP/1.1" 200 115 0.001693 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:47 +0000] [217] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2A94M5J1Z/note.json HTTP/1.1" 200 115 0.001893 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:47 +0000] [217] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/tutorial-python/note.json HTTP/1.1" 200 115 0.001766 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:47 +0000] [217] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/tutorial-scala/note.json HTTP/1.1" 200 115 0.001728 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:06:47 +0000] [212] [INFO] 10.42.148.76 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C35YU814/note.json HTTP/1.1" 200 115 0.001779 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-17 12:07:02 +0000] [212] [INFO] 10.42.197.199 - - "GET / HTTP/1.1" 200 37031 0.300791 "python-requests/2.21.0"
+[2019-10-17 12:07:04 +0000] [219] [INFO] 10.42.197.199 - - "GET / HTTP/1.1" 200 37031 0.291711 "python-requests/2.21.0"
+[2019-10-17 12:07:06 +0000] [214] [INFO] 10.42.197.199 - - "GET / HTTP/1.1" 200 37031 0.298047 "python-requests/2.21.0"
+[2019-10-17 12:07:08 +0000] [212] [INFO] 10.42.197.199 - - "GET / HTTP/1.1" 200 37031 0.054704 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 12:07:10 +0000] [212] [INFO] 10.42.197.199 - - "GET /api/v1/resources?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 125 0.001167 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 12:07:10 +0000] [217] [INFO] 10.42.197.199 - - "GET /pages/welcome HTTP/1.1" 200 24325 0.185329 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 12:07:10 +0000] [217] [INFO] 10.42.197.199 - - "GET /pages?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 165 0.000982 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 12:07:10 +0000] [212] [INFO] 10.42.197.199 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 12:07:11 +0000] [217] [INFO] 10.42.197.199 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 12:07:12 +0000] [219] [INFO] 10.42.197.199 - - "GET /api/v1/resources?type=data&limit=10 HTTP/1.1" 200 3540 0.237382 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 12:07:12 +0000] [212] [INFO] 10.42.197.199 - - "GET /api/v1/resources?type=notebook&limit=10 HTTP/1.1" 200 4734 0.237410 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 12:08:46 +0000] [214] [INFO] 10.42.197.199 - - "GET /api/v1/resources/SVM%20Visualization.ipynb?view=edit HTTP/1.1" 302 549 0.017359 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-17 12:08:55 +0000] [217] [INFO] 10.42.197.199 - - "PUT /api/v1/resources/SVM%20Visualization.ipynb HTTP/1.1" 200 532 0.067598 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+2019-10-17T14:35:47Z [2019-10-17 14:35:47 +0000] [159] [INFO] Handling signal: term
+<Greenlet "Greenlet-0" at 0x7fe58bf35ba8: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7fe58be2f890>>> failed with ConnectionError
+
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+    raise ConnectionError(self._error_message(e))
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+2019-10-17T14:35:47Z 2019-10-17T14:35:47Z2019-10-17T14:35:47Z  <Greenlet "Greenlet-0" at 0x7fe58be77ba8: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7fe58be2f810>>> failed with ConnectionError
+
+<Greenlet "Greenlet-0" at 0x7fe58bf35998: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7fe58be2f790>>> failed with ConnectionError
+
+<Greenlet "Greenlet-0" at 0x7fe58bf35998: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7fe58be2f710>>> failed with ConnectionError
+
+[2019-10-17 14:35:47 +0000] [214] [INFO] Worker exiting (pid: 214)
+[2019-10-17 14:35:47 +0000] [219] [INFO] Worker exiting (pid: 219)
+[2019-10-25 01:23:26 +0000] [126] [INFO] Starting gunicorn 19.3.0
+[2019-10-25 01:23:26 +0000] [126] [INFO] Listening at: http://0.0.0.0:5000 (126)
+[2019-10-25 01:23:26 +0000] [126] [INFO] Using worker: flask_sockets.worker
+[2019-10-25 01:23:26 +0000] [176] [INFO] Booting worker with pid: 176
+[2019-10-25 01:23:26 +0000] [179] [INFO] Booting worker with pid: 179
+[2019-10-25 01:23:26 +0000] [182] [INFO] Booting worker with pid: 182
+[2019-10-25 01:23:26 +0000] [184] [INFO] Booting worker with pid: 184
+[2019-10-25 01:23:44 +0000] [184] [INFO] 10.42.241.154 - - "GET / HTTP/1.1" 200 37031 0.353363 "python-requests/2.21.0"
+[2019-10-25 01:23:46 +0000] [176] [INFO] 10.42.241.154 - - "GET / HTTP/1.1" 200 37031 0.311887 "python-requests/2.21.0"
+[2019-10-25 01:23:48 +0000] [176] [INFO] 10.42.241.154 - - "GET / HTTP/1.1" 200 37031 0.064547 "python-requests/2.21.0"
+[2019-10-25 01:23:50 +0000] [184] [INFO] 10.42.241.154 - - "GET / HTTP/1.1" 200 37031 0.048328 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:50 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/css/index.css HTTP/1.1" 200 15986 0.005969 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:50 +0000] [184] [INFO] 10.42.241.154 - - "GET /common/static/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 121530 0.051584 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:50 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/css/animate.css HTTP/1.1" 200 1071 0.006409 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:51 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/dsx_logo.svg HTTP/1.1" 200 1625 0.002173 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:51 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/Rlogo.svg HTTP/1.1" 200 2304 0.002046 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:51 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/scala-logo.png HTTP/1.1" 200 16136 0.002140 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:51 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/python-logo.svg HTTP/1.1" 200 269865 0.060327 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:51 +0000] [184] [INFO] 10.42.241.154 - - "GET /static/0.4.1/js/dist/build.min.js HTTP/1.1" 200 311614 0.064914 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:51 +0000] [182] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/email_logo.png HTTP/1.1" 200 2808 0.007681 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:51 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/github_logo.png HTTP/1.1" 200 3973 0.002133 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:51 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/google_drive_logo.png HTTP/1.1" 200 5081 0.002155 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:51 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/box_logo.png HTTP/1.1" 200 5427 0.002083 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:51 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/dropbox_logo.png HTTP/1.1" 200 6114 0.002112 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:51 +0000] [182] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/twitter_logo.png HTTP/1.1" 200 3072 0.001987 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:52 +0000] [184] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/facebook_logo.png HTTP/1.1" 200 1826 0.002131 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:52 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/gist_logo.png HTTP/1.1" 200 3302 0.002156 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:53 +0000] [184] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/icon_tip_48.gif HTTP/1.1" 200 2205 0.002086 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:53 +0000] [184] [INFO] 10.42.241.154 - - "GET /static/0.4.1/fonts/Glyphicons-KAWB.woff HTTP/1.1" 200 2194 0.001866 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:53 +0000] [179] [INFO] 10.42.241.154 - - "GET /common/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23627 0.002409 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:53 +0000] [184] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/background_color_600x423.png HTTP/1.1" 200 34310 0.002625 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:53 +0000] [182] [INFO] 10.42.241.154 - - "GET /api/v1/resources?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 125 0.001850 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:53 +0000] [176] [INFO] 10.42.241.154 - - "GET /pages?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 165 0.002085 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:53 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/processing_ani_icon_small.gif HTTP/1.1" 200 4013 0.002235 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:53 +0000] [184] [INFO] 10.42.241.154 - - "GET /pages/welcome HTTP/1.1" 200 24311 0.236705 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:53 +0000] [179] [INFO] 10.42.241.154 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:54 +0000] [184] [INFO] 10.42.241.154 - - "GET /pages/static/images/scala-logo.png HTTP/1.1" 200 16136 0.038601 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:54 +0000] [179] [INFO] 10.42.241.154 - - "GET /pages/static/images/Rlogo.svg HTTP/1.1" 200 2304 0.053124 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:54 +0000] [182] [INFO] 10.42.241.154 - - "GET /pages/static/images/python-logo.svg HTTP/1.1" 200 269865 0.065239 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:54 +0000] [184] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/breadcrumbs_menu.html HTTP/1.1" 200 376 0.002120 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:54 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/sidebar_panel.html HTTP/1.1" 200 1199 0.004454 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:54 +0000] [182] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/notices.html HTTP/1.1" 200 668 0.002850 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:54 +0000] [176] [INFO] 10.42.241.154 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:55 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/frecent_resources.html HTTP/1.1" 200 646 0.002245 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:55 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/resource_menu.html HTTP/1.1" 200 6241 0.002251 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:55 +0000] [176] [INFO] 10.42.241.154 - - "GET /api/v1/resources?type=data&limit=10 HTTP/1.1" 200 3540 0.147183 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:55 +0000] [184] [INFO] 10.42.241.154 - - "GET /api/v1/resources?type=notebook&limit=10 HTTP/1.1" 200 4734 0.156263 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:56 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/resources_list.html HTTP/1.1" 200 1884 0.004117 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:23:56 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/breadcrumbs.html HTTP/1.1" 200 1615 0.047042 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:24:29 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/search_results.html HTTP/1.1" 200 843 0.004241 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:24:30 +0000] [184] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/processing_ani_icon_medium.gif HTTP/1.1" 200 13331 0.003282 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:24:30 +0000] [182] [INFO] 10.42.241.154 - - "GET /api/v1/search?uri=%2Fui%2Fv1%2Fquery%2Ftext%2Ftype%253Anotebook&type=query&limit=50&text=type%3Anotebook HTTP/1.1" 200 5502 0.253262 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:24:30 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/search_results_list.html HTTP/1.1" 200 1535 0.003019 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:24:36 +0000] [182] [INFO] 10.42.241.154 - - "GET /api/v1/search/scroll/cXVlcnlUaGVuRmV0Y2g7NTsxMTppU0dSZXdyOVFNYXZYODFvY3Y4NHZnOzEyOmlTR1Jld3I5UU1hdlg4MW9jdjg0dmc7MTM6aVNHUmV3cjlRTWF2WDgxb2N2ODR2ZzsxNDppU0dSZXdyOVFNYXZYODFvY3Y4NHZnOzE1OmlTR1Jld3I5UU1hdlg4MW9jdjg0dmc7MDs%3D?next_uri=%2Fapi%2Fv1%2Fsearch%2Fscroll%2FcXVlcnlUaGVuRmV0Y2g7NTsxMTppU0dSZXdyOVFNYXZYODFvY3Y4NHZnOzEyOmlTR1Jld3I5UU1hdlg4MW9jdjg0dmc7MTM6aVNHUmV3cjlRTWF2WDgxb2N2ODR2ZzsxNDppU0dSZXdyOVFNYXZYODFvY3Y4NHZnOzE1OmlTR1Jld3I5UU1hdlg4MW9jdjg0dmc7MDs%253D HTTP/1.1" 200 375 0.026298 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:24:45 +0000] [176] [INFO] 10.42.241.154 - - "GET /api/v1/resources/SVM%20Visualization.ipynb?view=edit HTTP/1.1" 302 549 0.031597 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:24:56 +0000] [176] [INFO] 10.42.241.154 - - "PUT /api/v1/resources/SVM%20Visualization.ipynb HTTP/1.1" 200 531 0.133216 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:36:26 +0000] [184] [INFO] 10.42.241.154 - - "GET /api/v1/resources/Untitled1.ipynb?view=edit HTTP/1.1" 302 519 0.055119 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 01:36:32 +0000] [182] [INFO] 10.42.241.154 - - "PUT /api/v1/resources/Untitled1.ipynb HTTP/1.1" 200 485 0.252823 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 02:09:13 +0000] [182] [INFO] 10.42.241.154 - - "GET /api/v1/resources/Untitled0.ipynb?view=edit HTTP/1.1" 302 519 0.023697 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 02:09:20 +0000] [184] [INFO] 10.42.241.154 - - "PUT /api/v1/resources/Untitled0.ipynb HTTP/1.1" 200 485 0.208291 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:32 +0000] [179] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/Tutorial%20%231%20-%20Get%20Data.ipynb HTTP/1.1" 200 115 0.027808 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:32 +0000] [182] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/Untitled2.ipynb HTTP/1.1" 200 115 0.014594 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:32 +0000] [182] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/Untitled1.ipynb HTTP/1.1" 200 115 0.011907 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:32 +0000] [184] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/samples/olympic-medals/medals.csv HTTP/1.1" 200 115 0.005824 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:32 +0000] [184] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/samples/osb/license.txt HTTP/1.1" 200 115 0.002087 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:32 +0000] [184] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/samples/osb/board.csv HTTP/1.1" 200 115 0.002169 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:32 +0000] [182] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/samples/osb/school.csv HTTP/1.1" 200 115 0.002763 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:32 +0000] [182] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/samples/weather/weather-stations20140101-20141231.csv HTTP/1.1" 200 115 0.003268 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:32 +0000] [182] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/samples/iris/iris.csv HTTP/1.1" 200 115 0.003840 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:32 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/samples/airline/2008.csv.bz2 HTTP/1.1" 200 115 0.007345 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:32 +0000] [179] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/titanic3.csv HTTP/1.1" 200 115 0.002591 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:32 +0000] [182] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/Untitled.ipynb HTTP/1.1" 200 115 0.030366 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:32 +0000] [184] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/Submit-to-Spark-Cluster.ipynb HTTP/1.1" 200 115 0.011555 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:32 +0000] [182] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/Untitled0.ipynb HTTP/1.1" 200 115 0.024377 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [184] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/Sparkling-Data-Drug-Brunel-Python3.ipynb HTTP/1.1" 200 115 0.049256 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/SVM%20Visualization.ipynb HTTP/1.1" 200 115 0.011017 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2BYEZ5EVK/note.json HTTP/1.1" 200 115 0.002583 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C2AUG798/note.json HTTP/1.1" 200 115 0.001977 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [184] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C57UKYWR/note.json HTTP/1.1" 200 115 0.002638 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [184] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2BWJFTXKJ/note.json HTTP/1.1" 200 115 0.005459 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2A94M5J1Z/note.json HTTP/1.1" 200 115 0.003143 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [182] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/tutorial-python/note.json HTTP/1.1" 200 115 0.006416 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/tutorial-scala/note.json HTTP/1.1" 200 115 0.002486 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C35YU814/note.json HTTP/1.1" 200 115 0.002055 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/Tutorial%20%231%20-%20Get%20Data.ipynb HTTP/1.1" 200 115 0.011278 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/Untitled2.ipynb HTTP/1.1" 200 115 0.009738 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/Untitled1.ipynb HTTP/1.1" 200 115 0.009696 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/samples/olympic-medals/medals.csv HTTP/1.1" 200 115 0.003394 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/samples/osb/license.txt HTTP/1.1" 200 115 0.004886 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/samples/osb/board.csv HTTP/1.1" 200 115 0.002808 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [184] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/samples/osb/school.csv HTTP/1.1" 200 115 0.002708 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/samples/weather/weather-stations20140101-20141231.csv HTTP/1.1" 200 115 0.004175 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [184] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/samples/iris/iris.csv HTTP/1.1" 200 115 0.002718 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:35 +0000] [184] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/samples/airline/2008.csv.bz2 HTTP/1.1" 200 115 0.002705 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:36 +0000] [184] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/data/titanic3.csv HTTP/1.1" 200 115 0.002688 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:36 +0000] [184] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/Untitled.ipynb HTTP/1.1" 200 115 0.016527 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:36 +0000] [182] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/Submit-to-Spark-Cluster.ipynb HTTP/1.1" 200 115 0.011574 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:36 +0000] [184] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/Untitled0.ipynb HTTP/1.1" 200 115 0.010841 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:37 +0000] [176] [INFO] 10.42.241.154 - - "GET / HTTP/1.1" 200 37031 0.101519 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:37 +0000] [179] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/Sparkling-Data-Drug-Brunel-Python3.ipynb HTTP/1.1" 200 115 0.018858 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:38 +0000] [179] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/SVM%20Visualization.ipynb HTTP/1.1" 200 115 0.013080 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:38 +0000] [179] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2BYEZ5EVK/note.json HTTP/1.1" 200 115 0.002702 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:38 +0000] [184] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C2AUG798/note.json HTTP/1.1" 200 115 0.002768 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:38 +0000] [179] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C57UKYWR/note.json HTTP/1.1" 200 115 0.002342 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:38 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2BWJFTXKJ/note.json HTTP/1.1" 200 115 0.002689 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:38 +0000] [176] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2A94M5J1Z/note.json HTTP/1.1" 200 115 0.002889 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:38 +0000] [179] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/tutorial-python/note.json HTTP/1.1" 200 115 0.005264 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:38 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/css/index.css HTTP/1.1" 200 15986 0.002186 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:38 +0000] [179] [INFO] 10.42.241.154 - - "GET /common/static/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 121530 0.019448 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:38 +0000] [184] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/tutorial-scala/note.json HTTP/1.1" 200 115 0.021388 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:38 +0000] [179] [INFO] 10.42.64.200 - - "PUT /api/v1/notify/resources/zeppelin/notebooks/2C35YU814/note.json HTTP/1.1" 200 115 0.005392 "python-requests/2.2.1 CPython/2.7.6 Linux/4.4.0-154-generic"
+[2019-10-25 03:53:38 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/css/animate.css HTTP/1.1" 200 1071 0.002087 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:38 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/dsx_logo.svg HTTP/1.1" 200 1625 0.002084 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:38 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/python-logo.svg HTTP/1.1" 200 269865 0.023253 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:38 +0000] [182] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/Rlogo.svg HTTP/1.1" 200 2304 0.002093 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:38 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/js/dist/build.min.js HTTP/1.1" 200 311614 0.018226 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:38 +0000] [182] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/scala-logo.png HTTP/1.1" 200 16136 0.001799 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:39 +0000] [176] [INFO] 10.42.241.154 - - "GET /common/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23627 0.002647 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:39 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/fonts/Glyphicons-KAWB.woff HTTP/1.1" 200 2194 0.002352 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:39 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/email_logo.png HTTP/1.1" 200 2808 0.001912 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:39 +0000] [184] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/icon_tip_48.gif HTTP/1.1" 200 2205 0.002455 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:39 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/github_logo.png HTTP/1.1" 200 3973 0.001891 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:39 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/google_drive_logo.png HTTP/1.1" 200 5081 0.001994 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:39 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/box_logo.png HTTP/1.1" 200 5427 0.002104 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:39 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/twitter_logo.png HTTP/1.1" 200 3072 0.001672 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:39 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/dropbox_logo.png HTTP/1.1" 200 6114 0.002064 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:40 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/facebook_logo.png HTTP/1.1" 200 1826 0.001986 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:40 +0000] [184] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/gist_logo.png HTTP/1.1" 200 3302 0.001997 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:40 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/background_color_600x423.png HTTP/1.1" 200 34310 0.002516 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:40 +0000] [179] [INFO] 10.42.241.154 - - "GET /pages?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 165 0.002021 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:40 +0000] [176] [INFO] 10.42.241.154 - - "GET /api/v1/resources?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 125 0.001550 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:40 +0000] [184] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/notices.html HTTP/1.1" 200 668 0.003137 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:40 +0000] [179] [INFO] 10.42.241.154 - - "GET /static/0.4.1/images/processing_ani_icon_small.gif HTTP/1.1" 200 4013 0.001782 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:41 +0000] [182] [INFO] 10.42.241.154 - - "GET /pages/welcome HTTP/1.1" 200 24332 0.206310 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:41 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/sidebar_panel.html HTTP/1.1" 200 1199 0.002139 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:41 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/breadcrumbs_menu.html HTTP/1.1" 200 376 0.001638 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:41 +0000] [179] [INFO] 10.42.241.154 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:41 +0000] [176] [INFO] 10.42.241.154 - - "GET /pages/static/images/Rlogo.svg HTTP/1.1" 200 2304 0.002352 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:41 +0000] [184] [INFO] 10.42.241.154 - - "GET /pages/static/images/scala-logo.png HTTP/1.1" 200 16136 0.002339 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:41 +0000] [179] [INFO] 10.42.241.154 - - "GET /pages/static/images/python-logo.svg HTTP/1.1" 200 269865 0.022182 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:41 +0000] [182] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/frecent_resources.html HTTP/1.1" 200 646 0.002012 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:41 +0000] [176] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/resource_menu.html HTTP/1.1" 200 6241 0.002228 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:42 +0000] [182] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/breadcrumbs.html HTTP/1.1" 200 1615 0.002795 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:42 +0000] [176] [INFO] 10.42.241.154 - - "GET /api/v1/resources?type=data&limit=10 HTTP/1.1" 200 3540 0.176323 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:42 +0000] [184] [INFO] 10.42.241.154 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:42 +0000] [179] [INFO] 10.42.241.154 - - "GET /api/v1/resources?type=notebook&limit=10 HTTP/1.1" 200 4940 0.210235 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:42 +0000] [182] [INFO] 10.42.241.154 - - "GET /static/0.4.1/templates/resources_list.html HTTP/1.1" 200 1884 0.002094 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:49 +0000] [179] [INFO] 10.42.241.154 - - "GET /api/v1/resources/Untitled1.ipynb?view=edit HTTP/1.1" 302 519 0.017993 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 03:53:58 +0000] [184] [INFO] 10.42.241.154 - - "PUT /api/v1/resources/Untitled1.ipynb HTTP/1.1" 200 485 0.124674 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+[2019-10-25 04:19:04 +0000] [126] [INFO] Handling signal: term
+    raise ConnectionError(self._error_message(e))
+    response = self.handle_message(self.parse_response(block=True))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+2019-10-25T04:19:04Z     connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    response = self.handle_message(self.parse_response(block=True))
+<Greenlet "Greenlet-0" at 0x7fe59f2b7db8: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7fe59e1d0450>>> failed with ConnectionError
+
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+2019-10-25T04:19:04Z <Greenlet "Greenlet-0" at 0x7fe59f2b7db8: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7fe59e74f590>>> failed with ConnectionError
+
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+2019-10-25T04:19:04Z <Greenlet "Greenlet-0" at 0x7fe59f1f9ba8: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7fe59e305dd0>>> failed with ConnectionError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+2019-10-25T04:19:04Z <Greenlet "Greenlet-0" at 0x7fe59f2b7998: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7fe59e74f510>>> failed with ConnectionError
+
+[2019-10-25 04:19:05 +0000] [182] [INFO] Worker exiting (pid: 182)
+[2019-10-25 05:12:08 +0000] [132] [INFO] Starting gunicorn 19.3.0
+[2019-10-25 05:12:08 +0000] [132] [INFO] Listening at: http://0.0.0.0:5000 (132)
+[2019-10-25 05:12:08 +0000] [132] [INFO] Using worker: flask_sockets.worker
+[2019-10-25 05:12:08 +0000] [197] [INFO] Booting worker with pid: 197
+[2019-10-25 05:12:09 +0000] [204] [INFO] Booting worker with pid: 204
+[2019-10-25 05:12:09 +0000] [208] [INFO] Booting worker with pid: 208
+[2019-10-25 05:12:09 +0000] [210] [INFO] Booting worker with pid: 210
+[2019-10-25 05:12:30 +0000] [204] [INFO] 10.42.124.58 - - "GET / HTTP/1.1" 200 37031 0.368318 "python-requests/2.21.0"
+[2019-10-25 05:12:31 +0000] [204] [INFO] 10.42.124.58 - - "GET / HTTP/1.1" 200 37031 0.036235 "python-requests/2.21.0"
+[2019-10-25 05:12:33 +0000] [210] [INFO] 10.42.124.58 - - "GET / HTTP/1.1" 200 37031 0.353479 "python-requests/2.21.0"
+[2019-10-25 05:12:34 +0000] [210] [INFO] 10.42.124.58 - - "GET / HTTP/1.1" 200 37031 0.077885 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:34 +0000] [210] [INFO] 10.42.124.58 - - "GET /common/static/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 121530 0.009152 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:34 +0000] [208] [INFO] 10.42.124.58 - - "GET /static/0.4.1/css/index.css HTTP/1.1" 200 15986 0.042437 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:35 +0000] [197] [INFO] 10.42.124.58 - - "GET /static/0.4.1/css/animate.css HTTP/1.1" 200 1071 0.005938 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:35 +0000] [208] [INFO] 10.42.124.58 - - "GET /static/0.4.1/images/dsx_logo.svg HTTP/1.1" 200 1625 0.002103 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:35 +0000] [208] [INFO] 10.42.124.58 - - "GET /static/0.4.1/images/python-logo.svg HTTP/1.1" 200 269865 0.028849 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:35 +0000] [208] [INFO] 10.42.124.58 - - "GET /static/0.4.1/images/scala-logo.png HTTP/1.1" 200 16136 0.002189 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:35 +0000] [204] [INFO] 10.42.124.58 - - "GET /static/0.4.1/images/Rlogo.svg HTTP/1.1" 200 2304 0.005154 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:35 +0000] [208] [INFO] 10.42.124.58 - - "GET /static/0.4.1/js/dist/build.min.js HTTP/1.1" 200 311614 0.058788 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:35 +0000] [208] [INFO] 10.42.124.58 - - "GET /common/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23627 0.002269 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:35 +0000] [208] [INFO] 10.42.124.58 - - "GET /static/0.4.1/fonts/Glyphicons-KAWB.woff HTTP/1.1" 200 2194 0.001788 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:36 +0000] [210] [INFO] 10.42.124.58 - - "GET /static/0.4.1/images/email_logo.png HTTP/1.1" 200 2808 0.001817 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:36 +0000] [210] [INFO] 10.42.124.58 - - "GET /static/0.4.1/images/github_logo.png HTTP/1.1" 200 3973 0.001820 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:36 +0000] [208] [INFO] 10.42.124.58 - - "GET /static/0.4.1/images/icon_tip_48.gif HTTP/1.1" 200 2205 0.001985 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:36 +0000] [208] [INFO] 10.42.124.58 - - "GET /static/0.4.1/images/google_drive_logo.png HTTP/1.1" 200 5081 0.001805 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:36 +0000] [208] [INFO] 10.42.124.58 - - "GET /static/0.4.1/images/dropbox_logo.png HTTP/1.1" 200 6114 0.001877 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:36 +0000] [204] [INFO] 10.42.124.58 - - "GET /static/0.4.1/images/box_logo.png HTTP/1.1" 200 5427 0.001939 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:36 +0000] [208] [INFO] 10.42.124.58 - - "GET /static/0.4.1/images/twitter_logo.png HTTP/1.1" 200 3072 0.002124 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:36 +0000] [208] [INFO] 10.42.124.58 - - "GET /static/0.4.1/images/facebook_logo.png HTTP/1.1" 200 1826 0.001717 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:36 +0000] [208] [INFO] 10.42.124.58 - - "GET /static/0.4.1/images/gist_logo.png HTTP/1.1" 200 3302 0.001974 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:37 +0000] [208] [INFO] 10.42.124.58 - - "GET /static/0.4.1/images/background_color_600x423.png HTTP/1.1" 200 34310 0.002209 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:37 +0000] [197] [INFO] 10.42.124.58 - - "GET /static/0.4.1/templates/notices.html HTTP/1.1" 200 668 0.001761 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:37 +0000] [204] [INFO] 10.42.124.58 - - "GET /pages?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 165 0.001512 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:37 +0000] [208] [INFO] 10.42.124.58 - - "GET /static/0.4.1/images/processing_ani_icon_small.gif HTTP/1.1" 200 4013 0.046716 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:37 +0000] [210] [INFO] 10.42.124.58 - - "GET /api/v1/resources?uri%5B%5D=%2Fpages%2Fwelcome HTTP/1.1" 200 125 0.001451 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:37 +0000] [204] [INFO] 10.42.124.58 - - "GET /pages/welcome HTTP/1.1" 200 24309 0.207540 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:37 +0000] [197] [INFO] 10.42.124.58 - - "GET /static/0.4.1/templates/sidebar_panel.html HTTP/1.1" 200 1199 0.001804 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:37 +0000] [208] [INFO] 10.42.124.58 - - "GET /static/0.4.1/templates/breadcrumbs_menu.html HTTP/1.1" 200 376 0.002160 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:38 +0000] [204] [INFO] 10.42.124.58 - - "GET /pages/static/images/scala-logo.png HTTP/1.1" 200 16136 0.002083 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:38 +0000] [210] [INFO] 10.42.124.58 - - "GET /static/0.4.1/templates/frecent_resources.html HTTP/1.1" 200 646 0.002259 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:38 +0000] [204] [INFO] 10.42.124.58 - - "GET /static/0.4.1/templates/resource_menu.html HTTP/1.1" 200 6241 0.001455 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:38 +0000] [210] [INFO] 10.42.124.58 - - "GET /pages/static/images/Rlogo.svg HTTP/1.1" 200 2304 0.001451 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:38 +0000] [208] [INFO] 10.42.124.58 - - "GET /pages/static/images/python-logo.svg HTTP/1.1" 200 269865 0.057633 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:38 +0000] [197] [INFO] 10.42.124.58 - - "GET /api/v1/resources?type=data&limit=10 HTTP/1.1" 200 3540 0.108156 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:38 +0000] [197] [INFO] 10.42.124.58 - - "GET /static/0.4.1/templates/breadcrumbs.html HTTP/1.1" 200 1615 0.001517 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:38 +0000] [197] [INFO] 10.42.124.58 - - "GET /api/v1/resources?type=notebook&limit=10 HTTP/1.1" 200 4943 0.185997 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:39 +0000] [204] [INFO] 10.42.124.58 - - "GET /static/0.4.1/templates/resources_list.html HTTP/1.1" 200 1884 0.001936 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:40 +0000] [204] [INFO] 10.42.124.58 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:40 +0000] [197] [INFO] 10.42.124.58 - - "GET /api/v1/resources/Untitled1.ipynb?view=edit HTTP/1.1" 302 519 0.056323 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:41 +0000] [208] [INFO] 10.42.124.58 - - "GET /api/v1/notify/subscribe HTTP/1.1" 101 129 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+[2019-10-25 05:12:50 +0000] [208] [INFO] 10.42.124.58 - - "PUT /api/v1/resources/Untitled1.ipynb HTTP/1.1" 200 485 0.207862 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+  File "/srv/flask/app/notify.py", line 32, in _run_loop
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for msg in self._iter_hub():
+  File "/srv/flask/app/notify.py", line 27, in _iter_hub
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    for redis_msg in self.hub.listen():
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2159, in listen
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    response = self.handle_message(self.parse_response(block=True))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2094, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2083, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 412, in connect
+[2019-10-25 05:45:16 +0000] [132] [INFO] Handling signal: term
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+2019-10-25T05:45:16Z     raise ConnectionError(self._error_message(e))
+ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.
+<Greenlet "Greenlet-0" at 0x7f12659e2998: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7f1264e7a5d0>>> failed with ConnectionError
+
+2019-10-25T05:45:16Z <Greenlet "Greenlet-0" at 0x7f12659e2db8: <bound method _NotifierPool._run_loop of <app.notify._NotifierPool object at 0x7f1264a30fd0>>> failed with ConnectionError
+
+[2019-10-25 05:45:16 +0000] [197] [INFO] Worker exiting (pid: 197)
+[2019-10-25 05:45:16 +0000] [210] [INFO] Worker exiting (pid: 210)

@@ -1,0 +1,14 @@
+digraph  {
+Scrolling;
+Chatting;
+Watching;
+Scrolling -> Scrolling  [key=0, label="0.4", weight="0.4"];
+Scrolling -> Chatting  [key=0, label="0.2", weight="0.2"];
+Scrolling -> Watching  [key=0, label="0.4", weight="0.4"];
+Chatting -> Scrolling  [key=0, label="0.45", weight="0.45"];
+Chatting -> Chatting  [key=0, label="0.45", weight="0.45"];
+Chatting -> Watching  [key=0, label="0.1", weight="0.1"];
+Watching -> Scrolling  [key=0, label="0.45", weight="0.45"];
+Watching -> Chatting  [key=0, label="0.25", weight="0.25"];
+Watching -> Watching  [key=0, label="0.3", weight="0.3"];
+}

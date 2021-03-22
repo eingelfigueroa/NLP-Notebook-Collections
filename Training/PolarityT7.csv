@@ -1,0 +1,5 @@
+Polarity,Values
+neg, 0.05
+neu, 0.722
+pos, 0.228
+compound, 0.9991

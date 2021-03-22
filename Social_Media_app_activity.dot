@@ -1,0 +1,26 @@
+digraph  {
+Happy;
+Sad;
+Bored;
+Scrolling;
+Chatting;
+Watching;
+Happy -> Happy  [key=0, label="0.23", weight="0.23"];
+Happy -> Sad  [key=0, label="0.61", weight="0.61"];
+Happy -> Bored  [key=0, label="0.16", weight="0.16"];
+Happy -> Scrolling  [key=0, label="0.2", weight="0.2"];
+Happy -> Chatting  [key=0, label="0.6", weight="0.6"];
+Happy -> Watching  [key=0, label="0.2", weight="0.2"];
+Sad -> Happy  [key=0, label="0.41", weight="0.41"];
+Sad -> Sad  [key=0, label="0.38", weight="0.38"];
+Sad -> Bored  [key=0, label="0.21", weight="0.21"];
+Sad -> Scrolling  [key=0, label="0.4", weight="0.4"];
+Sad -> Chatting  [key=0, label="0.1", weight="0.1"];
+Sad -> Watching  [key=0, label="0.5", weight="0.5"];
+Bored -> Happy  [key=0, label="0.34", weight="0.34"];
+Bored -> Sad  [key=0, label="0.24", weight="0.24"];
+Bored -> Bored  [key=0, label="0.42", weight="0.42"];
+Bored -> Scrolling  [key=0, label="0.3", weight="0.3"];
+Bored -> Chatting  [key=0, label="0.5", weight="0.5"];
+Bored -> Watching  [key=0, label="0.2", weight="0.2"];
+}

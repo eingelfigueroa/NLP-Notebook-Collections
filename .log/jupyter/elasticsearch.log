@@ -1,0 +1,153 @@
+[2019-09-25 09:20:39,527][INFO ][node                     ] [Annalee] version[1.2.2], pid[38], build[9902f08/2014-07-09T12:02:32Z]
+[2019-09-25 09:20:39,528][INFO ][node                     ] [Annalee] initializing ...
+[2019-09-25 09:20:39,535][INFO ][plugins                  ] [Annalee] loaded [], sites []
+[2019-09-25 09:20:42,500][INFO ][node                     ] [Annalee] initialized
+[2019-09-25 09:20:42,501][INFO ][node                     ] [Annalee] starting ...
+[2019-09-25 09:20:42,509][INFO ][transport                ] [Annalee] bound_address {local[1]}, publish_address {local[1]}
+[2019-09-25 09:20:42,531][INFO ][cluster.service          ] [Annalee] new_master [Annalee][VYGGdEJkRAuLfgjH1qAVBw][4aebb63cb8a1][local[1]]{local=true}, reason: local-disco-initial_connect(master)
+[2019-09-25 09:20:42,539][INFO ][discovery                ] [Annalee] elasticsearch/VYGGdEJkRAuLfgjH1qAVBw
+[2019-09-25 09:20:42,604][INFO ][gateway                  ] [Annalee] recovered [0] indices into cluster_state
+[2019-09-25 09:20:42,808][INFO ][http                     ] [Annalee] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/10.42.99.35:9200]}
+[2019-09-25 09:20:42,810][INFO ][node                     ] [Annalee] started
+[2019-09-25 09:20:48,406][INFO ][cluster.metadata         ] [Annalee] [ka_workbench] creating index, cause [api], shards [5]/[1], mappings []
+[2019-09-25 09:20:49,172][INFO ][cluster.metadata         ] [Annalee] [ka_workbench] create_mapping [resources]
+[2019-09-25 09:38:32,735][INFO ][node                     ] [Annalee] stopping ...
+[2019-09-25 09:38:32,788][INFO ][node                     ] [Annalee] stopped
+[2019-09-25 09:38:32,788][INFO ][node                     ] [Annalee] closing ...
+[2019-09-25 09:38:32,867][INFO ][node                     ] [Annalee] closed
+[2019-10-09 07:21:58,690][INFO ][node                     ] [Skein] version[1.2.2], pid[38], build[9902f08/2014-07-09T12:02:32Z]
+[2019-10-09 07:21:58,692][INFO ][node                     ] [Skein] initializing ...
+[2019-10-09 07:21:58,699][INFO ][plugins                  ] [Skein] loaded [], sites []
+[2019-10-09 07:22:01,836][INFO ][node                     ] [Skein] initialized
+[2019-10-09 07:22:01,836][INFO ][node                     ] [Skein] starting ...
+[2019-10-09 07:22:01,843][INFO ][transport                ] [Skein] bound_address {local[1]}, publish_address {local[1]}
+[2019-10-09 07:22:01,908][INFO ][cluster.service          ] [Skein] new_master [Skein][R6KwfursR4yBq-WVyB8fIA][87440b4ccafd][local[1]]{local=true}, reason: local-disco-initial_connect(master)
+[2019-10-09 07:22:01,911][INFO ][discovery                ] [Skein] elasticsearch/R6KwfursR4yBq-WVyB8fIA
+[2019-10-09 07:22:02,086][INFO ][gateway                  ] [Skein] recovered [0] indices into cluster_state
+[2019-10-09 07:22:02,191][INFO ][http                     ] [Skein] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/10.42.223.54:9200]}
+[2019-10-09 07:22:02,193][INFO ][node                     ] [Skein] started
+[2019-10-09 07:22:06,976][INFO ][cluster.metadata         ] [Skein] [ka_workbench] creating index, cause [api], shards [5]/[1], mappings []
+[2019-10-09 07:22:07,609][INFO ][cluster.metadata         ] [Skein] [ka_workbench] create_mapping [resources]
+[2019-10-09 09:15:22,465][INFO ][node                     ] [Skein] stopping ...
+[2019-10-09 09:15:22,645][INFO ][node                     ] [Skein] stopped
+[2019-10-09 09:15:22,645][INFO ][node                     ] [Skein] closing ...
+[2019-10-09 09:15:22,732][INFO ][node                     ] [Skein] closed
+[2019-10-15 07:40:46,337][INFO ][node                     ] [Elektro] version[1.2.2], pid[39], build[9902f08/2014-07-09T12:02:32Z]
+[2019-10-15 07:40:46,339][INFO ][node                     ] [Elektro] initializing ...
+[2019-10-15 07:40:46,350][INFO ][plugins                  ] [Elektro] loaded [], sites []
+[2019-10-15 07:40:49,999][INFO ][node                     ] [Elektro] initialized
+[2019-10-15 07:40:49,999][INFO ][node                     ] [Elektro] starting ...
+[2019-10-15 07:40:50,022][INFO ][transport                ] [Elektro] bound_address {local[1]}, publish_address {local[1]}
+[2019-10-15 07:40:50,068][INFO ][cluster.service          ] [Elektro] new_master [Elektro][-RDjhmUOQeGoX3TeFBk2tQ][332d428ce735][local[1]]{local=true}, reason: local-disco-initial_connect(master)
+[2019-10-15 07:40:50,076][INFO ][discovery                ] [Elektro] elasticsearch/-RDjhmUOQeGoX3TeFBk2tQ
+[2019-10-15 07:40:50,178][INFO ][gateway                  ] [Elektro] recovered [0] indices into cluster_state
+[2019-10-15 07:40:50,481][INFO ][http                     ] [Elektro] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/10.42.221.122:9200]}
+[2019-10-15 07:40:50,483][INFO ][node                     ] [Elektro] started
+[2019-10-15 07:40:54,511][INFO ][cluster.metadata         ] [Elektro] [ka_workbench] creating index, cause [api], shards [5]/[1], mappings []
+[2019-10-15 07:40:55,128][INFO ][cluster.metadata         ] [Elektro] [ka_workbench] create_mapping [resources]
+[2019-10-15 09:45:24,826][INFO ][node                     ] [Elektro] stopping ...
+[2019-10-15 09:45:25,128][INFO ][node                     ] [Elektro] stopped
+[2019-10-15 09:45:25,128][INFO ][node                     ] [Elektro] closing ...
+[2019-10-15 09:45:25,209][INFO ][node                     ] [Elektro] closed
+[2019-10-16 01:51:31,370][INFO ][node                     ] [Deathwatch] version[1.2.2], pid[38], build[9902f08/2014-07-09T12:02:32Z]
+[2019-10-16 01:51:31,371][INFO ][node                     ] [Deathwatch] initializing ...
+[2019-10-16 01:51:31,376][INFO ][plugins                  ] [Deathwatch] loaded [], sites []
+[2019-10-16 01:51:33,803][INFO ][node                     ] [Deathwatch] initialized
+[2019-10-16 01:51:33,804][INFO ][node                     ] [Deathwatch] starting ...
+[2019-10-16 01:51:33,810][INFO ][transport                ] [Deathwatch] bound_address {local[1]}, publish_address {local[1]}
+[2019-10-16 01:51:33,832][INFO ][cluster.service          ] [Deathwatch] new_master [Deathwatch][KiM07kxeT8u0xuW5787a9Q][959ec7e86fbf][local[1]]{local=true}, reason: local-disco-initial_connect(master)
+[2019-10-16 01:51:33,835][INFO ][discovery                ] [Deathwatch] elasticsearch/KiM07kxeT8u0xuW5787a9Q
+[2019-10-16 01:51:33,896][INFO ][gateway                  ] [Deathwatch] recovered [0] indices into cluster_state
+[2019-10-16 01:51:34,025][INFO ][http                     ] [Deathwatch] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/10.42.189.62:9200]}
+[2019-10-16 01:51:34,027][INFO ][node                     ] [Deathwatch] started
+[2019-10-16 01:51:41,018][INFO ][cluster.metadata         ] [Deathwatch] [ka_workbench] creating index, cause [api], shards [5]/[1], mappings []
+[2019-10-16 01:51:41,600][INFO ][cluster.metadata         ] [Deathwatch] [ka_workbench] create_mapping [resources]
+[2019-10-16 03:00:18,662][INFO ][node                     ] [Deathwatch] stopping ...
+[2019-10-16 03:00:18,777][INFO ][node                     ] [Deathwatch] stopped
+[2019-10-16 03:00:18,777][INFO ][node                     ] [Deathwatch] closing ...
+[2019-10-16 03:00:18,787][INFO ][node                     ] [Deathwatch] closed
+[2019-10-17 07:00:39,333][INFO ][node                     ] [Forge] version[1.2.2], pid[38], build[9902f08/2014-07-09T12:02:32Z]
+[2019-10-17 07:00:39,334][INFO ][node                     ] [Forge] initializing ...
+[2019-10-17 07:00:39,339][INFO ][plugins                  ] [Forge] loaded [], sites []
+[2019-10-17 07:00:41,553][INFO ][node                     ] [Forge] initialized
+[2019-10-17 07:00:41,553][INFO ][node                     ] [Forge] starting ...
+[2019-10-17 07:00:41,559][INFO ][transport                ] [Forge] bound_address {local[1]}, publish_address {local[1]}
+[2019-10-17 07:00:41,576][INFO ][cluster.service          ] [Forge] new_master [Forge][0JMFbkjwTQKHuiFxobHQcg][3bcf0672bbcc][local[1]]{local=true}, reason: local-disco-initial_connect(master)
+[2019-10-17 07:00:41,580][INFO ][discovery                ] [Forge] elasticsearch/0JMFbkjwTQKHuiFxobHQcg
+[2019-10-17 07:00:41,650][INFO ][gateway                  ] [Forge] recovered [0] indices into cluster_state
+[2019-10-17 07:00:41,793][INFO ][http                     ] [Forge] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/10.42.45.83:9200]}
+[2019-10-17 07:00:41,794][INFO ][node                     ] [Forge] started
+[2019-10-17 07:00:51,138][INFO ][cluster.metadata         ] [Forge] [ka_workbench] creating index, cause [api], shards [5]/[1], mappings []
+[2019-10-17 07:00:51,681][INFO ][cluster.metadata         ] [Forge] [ka_workbench] create_mapping [resources]
+[2019-10-17 08:03:30,926][INFO ][node                     ] [Forge] stopping ...
+[2019-10-17 08:03:30,975][INFO ][node                     ] [Forge] stopped
+[2019-10-17 08:03:30,976][INFO ][node                     ] [Forge] closing ...
+[2019-10-17 08:03:30,988][INFO ][node                     ] [Forge] closed
+[2019-10-17 10:26:40,415][INFO ][node                     ] [Lady Jacqueline Falsworth Crichton] version[1.2.2], pid[39], build[9902f08/2014-07-09T12:02:32Z]
+[2019-10-17 10:26:40,417][INFO ][node                     ] [Lady Jacqueline Falsworth Crichton] initializing ...
+[2019-10-17 10:26:40,424][INFO ][plugins                  ] [Lady Jacqueline Falsworth Crichton] loaded [], sites []
+[2019-10-17 10:26:43,591][INFO ][node                     ] [Lady Jacqueline Falsworth Crichton] initialized
+[2019-10-17 10:26:43,591][INFO ][node                     ] [Lady Jacqueline Falsworth Crichton] starting ...
+[2019-10-17 10:26:43,600][INFO ][transport                ] [Lady Jacqueline Falsworth Crichton] bound_address {local[1]}, publish_address {local[1]}
+[2019-10-17 10:26:43,625][INFO ][cluster.service          ] [Lady Jacqueline Falsworth Crichton] new_master [Lady Jacqueline Falsworth Crichton][MLFitBn_TVavbhN-dY8erA][7a0a336fc4d8][local[1]]{local=true}, reason: local-disco-initial_connect(master)
+[2019-10-17 10:26:43,630][INFO ][discovery                ] [Lady Jacqueline Falsworth Crichton] elasticsearch/MLFitBn_TVavbhN-dY8erA
+[2019-10-17 10:26:43,815][INFO ][gateway                  ] [Lady Jacqueline Falsworth Crichton] recovered [0] indices into cluster_state
+[2019-10-17 10:26:44,051][INFO ][http                     ] [Lady Jacqueline Falsworth Crichton] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/10.42.73.83:9200]}
+[2019-10-17 10:26:44,054][INFO ][node                     ] [Lady Jacqueline Falsworth Crichton] started
+[2019-10-17 10:26:51,929][INFO ][cluster.metadata         ] [Lady Jacqueline Falsworth Crichton] [ka_workbench] creating index, cause [api], shards [5]/[1], mappings []
+[2019-10-17 10:26:52,649][INFO ][cluster.metadata         ] [Lady Jacqueline Falsworth Crichton] [ka_workbench] create_mapping [resources]
+[2019-10-17 11:59:17,349][INFO ][node                     ] [Lady Jacqueline Falsworth Crichton] stopping ...
+[2019-10-17 11:59:17,429][INFO ][node                     ] [Lady Jacqueline Falsworth Crichton] stopped
+[2019-10-17 11:59:17,429][INFO ][node                     ] [Lady Jacqueline Falsworth Crichton] closing ...
+[2019-10-17 11:59:17,454][INFO ][node                     ] [Lady Jacqueline Falsworth Crichton] closed
+[2019-10-17 12:06:34,994][INFO ][node                     ] [Mystique] version[1.2.2], pid[38], build[9902f08/2014-07-09T12:02:32Z]
+[2019-10-17 12:06:34,995][INFO ][node                     ] [Mystique] initializing ...
+[2019-10-17 12:06:35,000][INFO ][plugins                  ] [Mystique] loaded [], sites []
+[2019-10-17 12:06:37,453][INFO ][node                     ] [Mystique] initialized
+[2019-10-17 12:06:37,453][INFO ][node                     ] [Mystique] starting ...
+[2019-10-17 12:06:37,462][INFO ][transport                ] [Mystique] bound_address {local[1]}, publish_address {local[1]}
+[2019-10-17 12:06:37,487][INFO ][cluster.service          ] [Mystique] new_master [Mystique][uFepUSYNRzugjd4xakUSXA][cff0a1008e8b][local[1]]{local=true}, reason: local-disco-initial_connect(master)
+[2019-10-17 12:06:37,490][INFO ][discovery                ] [Mystique] elasticsearch/uFepUSYNRzugjd4xakUSXA
+[2019-10-17 12:06:37,543][INFO ][gateway                  ] [Mystique] recovered [0] indices into cluster_state
+[2019-10-17 12:06:37,715][INFO ][http                     ] [Mystique] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/10.42.170.239:9200]}
+[2019-10-17 12:06:37,717][INFO ][node                     ] [Mystique] started
+[2019-10-17 12:06:44,303][INFO ][cluster.metadata         ] [Mystique] [ka_workbench] creating index, cause [api], shards [5]/[1], mappings []
+[2019-10-17 12:06:44,864][INFO ][cluster.metadata         ] [Mystique] [ka_workbench] create_mapping [resources]
+[2019-10-17 14:35:47,277][INFO ][node                     ] [Mystique] stopping ...
+[2019-10-17 14:35:47,324][INFO ][node                     ] [Mystique] stopped
+[2019-10-17 14:35:47,324][INFO ][node                     ] [Mystique] closing ...
+[2019-10-17 14:35:47,334][INFO ][node                     ] [Mystique] closed
+[2019-10-25 01:23:17,730][INFO ][node                     ] [Sigmar] version[1.2.2], pid[39], build[9902f08/2014-07-09T12:02:32Z]
+[2019-10-25 01:23:17,731][INFO ][node                     ] [Sigmar] initializing ...
+[2019-10-25 01:23:17,738][INFO ][plugins                  ] [Sigmar] loaded [], sites []
+[2019-10-25 01:23:20,887][INFO ][node                     ] [Sigmar] initialized
+[2019-10-25 01:23:20,887][INFO ][node                     ] [Sigmar] starting ...
+[2019-10-25 01:23:20,897][INFO ][transport                ] [Sigmar] bound_address {local[1]}, publish_address {local[1]}
+[2019-10-25 01:23:20,921][INFO ][cluster.service          ] [Sigmar] new_master [Sigmar][iSGRewr9QMavX81ocv84vg][d5d5f5b10152][local[1]]{local=true}, reason: local-disco-initial_connect(master)
+[2019-10-25 01:23:20,926][INFO ][discovery                ] [Sigmar] elasticsearch/iSGRewr9QMavX81ocv84vg
+[2019-10-25 01:23:20,997][INFO ][gateway                  ] [Sigmar] recovered [0] indices into cluster_state
+[2019-10-25 01:23:21,160][INFO ][http                     ] [Sigmar] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/10.42.233.199:9200]}
+[2019-10-25 01:23:21,163][INFO ][node                     ] [Sigmar] started
+[2019-10-25 01:23:28,355][INFO ][cluster.metadata         ] [Sigmar] [ka_workbench] creating index, cause [api], shards [5]/[1], mappings []
+[2019-10-25 01:23:29,060][INFO ][cluster.metadata         ] [Sigmar] [ka_workbench] create_mapping [resources]
+[2019-10-25 04:19:04,739][INFO ][node                     ] [Sigmar] stopping ...
+[2019-10-25 04:19:04,927][INFO ][node                     ] [Sigmar] stopped
+[2019-10-25 04:19:04,927][INFO ][node                     ] [Sigmar] closing ...
+[2019-10-25 04:19:04,961][INFO ][node                     ] [Sigmar] closed
+[2019-10-25 05:12:01,505][INFO ][node                     ] [Marrow] version[1.2.2], pid[38], build[9902f08/2014-07-09T12:02:32Z]
+[2019-10-25 05:12:01,506][INFO ][node                     ] [Marrow] initializing ...
+[2019-10-25 05:12:01,511][INFO ][plugins                  ] [Marrow] loaded [], sites []
+[2019-10-25 05:12:03,843][INFO ][node                     ] [Marrow] initialized
+[2019-10-25 05:12:03,843][INFO ][node                     ] [Marrow] starting ...
+[2019-10-25 05:12:03,849][INFO ][transport                ] [Marrow] bound_address {local[1]}, publish_address {local[1]}
+[2019-10-25 05:12:03,866][INFO ][cluster.service          ] [Marrow] new_master [Marrow][9xuUDtouRBKEwKIf2THzEg][bf5152188e08][local[1]]{local=true}, reason: local-disco-initial_connect(master)
+[2019-10-25 05:12:03,869][INFO ][discovery                ] [Marrow] elasticsearch/9xuUDtouRBKEwKIf2THzEg
+[2019-10-25 05:12:03,917][INFO ][gateway                  ] [Marrow] recovered [0] indices into cluster_state
+[2019-10-25 05:12:04,051][INFO ][http                     ] [Marrow] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/10.42.115.154:9200]}
+[2019-10-25 05:12:04,053][INFO ][node                     ] [Marrow] started
+[2019-10-25 05:12:10,189][INFO ][cluster.metadata         ] [Marrow] [ka_workbench] creating index, cause [api], shards [5]/[1], mappings []
+[2019-10-25 05:12:10,742][INFO ][cluster.metadata         ] [Marrow] [ka_workbench] create_mapping [resources]
+[2019-10-25 05:45:16,152][INFO ][node                     ] [Marrow] stopping ...
+[2019-10-25 05:45:16,276][INFO ][node                     ] [Marrow] stopped
+[2019-10-25 05:45:16,276][INFO ][node                     ] [Marrow] closing ...
+[2019-10-25 05:45:16,288][INFO ][node                     ] [Marrow] closed

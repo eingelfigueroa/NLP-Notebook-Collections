@@ -1,0 +1,23 @@
+index,Numerical Value,Sentiment Score
+I can easily log-in and log-out my Canvas account.,3.84,0.17137571428571427
+I can access my course using the mobile Canvas app. ,3.68,0.16313071428571432
+I can access my Canvas account using the available computers in JRU.,3.83,0.15920571428571434
+I can easily get help when I have problems with my Canvas account.,3.52,0.08488142857142857
+I have no issues accessing my Canvas account using the wired internet connection in the computer laboratories.,3.67,0.2711971428571431
+I can access my Canvas account outside JRU. ,3.81,0.17636500000000008
+I can clearly understand the lessons on my Canvas modules. ,3.61,0.26615285714285725
+I recognize that the modules in my course are well organized.,3.78,0.27341714285714314
+I can easily manage the navigation of the courses through the desktop version. ,3.82,0.31624142857142856
+I can easily manage the navigation of the courses through the mobile app.,3.54,0.25183285714285736
+I notice that course materials on Canvas have connection with the face to face (classroom) lesson content.,3.61,0.20647571428571448
+I understand the lessons better with the help of course materials in Canvas. ,3.66,0.33951142857142835
+Canvas course materials make me interested.,3.66,0.37102928571428556
+My instructor knows how to use Canvas.,3.84,0.24497928571428587
+My instructor demonstrated mastery of the subject matter.,3.76,0.2714250000000001
+My instructor encourages me to use Canvas.,3.83,0.2912928571428571
+"I can answer the assessment materials (quiz, exam) posted in Canvas.",3.79,0.2308800000000002
+I have been give enough time to accomplish the activities on Canvas.,3.57,0.22575571428571445
+1st aggregation,3.7525,0.2830335714285715
+2nd aggregation,3.686666666666667,0.2971407142857143
+3rd aggregation,3.76,0.206052142857143
+Average,3.7215860215053764,0.245316755952381

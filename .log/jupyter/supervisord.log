@@ -1,0 +1,453 @@
+2019-09-25 09:20:37,505 CRIT Supervisor running as root (no user in config file)
+2019-09-25 09:20:37,505 WARN Included extra file "/etc/supervisor/conf.d/index.conf" during parsing
+2019-09-25 09:20:37,545 INFO RPC interface 'supervisor' initialized
+2019-09-25 09:20:37,546 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-09-25 09:20:37,546 INFO supervisord started with pid 6
+2019-09-25 09:20:38,549 INFO spawned: 'setup' with pid 13
+2019-09-25 09:20:38,709 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-09-25 09:20:38,851 INFO spawned: 'elasticsearch' with pid 38
+2019-09-25 09:20:40,536 INFO success: elasticsearch entered RUNNING state, process has stayed up for > than 1 seconds (sta2019-09-25 09:20:41,586 CRIT Supervisor running as root (no user in config file)
+2019-09-25 09:20:41,587 WARN Included extra file "/etc/supervisor/conf.d/webapp.conf" during parsing
+2019-09-25 09:20:41,682 INFO RPC interface 'supervisor' initialized
+2019-09-25 09:20:41,682 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-09-25 09:20:41,682 INFO supervisord started with pid 6
+2019-09-25 09:20:42,686 INFO spawned: 'cron' with pid 13
+2019-09-25 09:20:42,688 INFO spawned: 'setup' with pid 14
+2019-09-25 09:20:42,712 INFO spawned: 'redis' with pid 15
+2019-09-25 09:20:42,726 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-09-25 09:20:44,164 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-25 09:20:44,164 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-25 09:20:44,169 INFO spawned: 'webapp' with pid 91
+2019-09-25 09:20:45,951 INFO success: webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-25 09:20:46,018 INFO exited: setup (exit status 0; expected)
+5 09:20:45,723 INFO RPC interface 'supervisor' initialized
+2019-09-25 09:20:45,723 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-09-25 09:20:45,723 INFO supervisord started with pid 6
+2019-09-25 09:20:46,727 INFO spawned: 'setup' with pid 12
+2019-09-25 09:20:47,084 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-09-25 09:20:47,340 INFO spawned: 'indexer' with pid 45
+2019-09-25 09:20:48,876 INFO success: indexer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-25 09:20:48,904 INFO exited: setup (exit status 0; ex2019-09-2019-09-25 09:21:09,700 INFO spawned: 'notebook' with pid 148
+2019-09-25 09:21:10,711 INFO success: notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-25 09:21:11,402 INFO exited: setup (exit status 0; expected)
+2019-09-25 09:38:32,644 WARN received SIGTERM indicating exit request
+2019-09-25 09:38:32,645 INFO waiting for cron, webapp, redis to die
+2019-09-25 09:38:32,694 INFO stopped: redis (exit status 0)
+2019-09-25 09:38:33,997 INFO stopped: hipache_http (exit status 0)
+-25 09:38:32,736 INFO stopped: indexer (terminated by SIGTERM)
+2019-09-25 09:38:32,904 INFO stopped: elasticsearch (exit status 143)
+2019-09-25 09:38:35,707 INFO waiting for cron, webapp to die
+2019-09-25 09:38:38,712 INFO waiting for cron, webapp to die
+2019-09-25 09:38:41,719 INFO waiting for cron, webapp to die
+2019-10-09 07:21:56,332 CRIT Supervisor running as root (no user in config file)
+2019-10-09 07:21:56,332 INFO Included extra file "/etc/supervisor/conf.d/nbserver.conf" during parsing
+2019-10-09 07:21:56,359 INFO RPC interface 'supervisor' initialized
+2019-10-09 07:21:56,360 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-10-09 07:21:56,360 INFO RPC interface 'supervisor' i2019-10-09 07:21:57,251 INFO spawned: 'setup' with pid 13
+2019-10-09 07:21:57,493 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-09 07:21:57,609 INFO spawned: 'elasticsearch' with pid 38
+:21:57,385 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-09 07:21:57,956 INFO spawned: 'notebook' with pid 85
+2019-10-09 07:21:59,362 INFO success: notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-09 07:21:59,378 INFO exited: setup (exit status 0; expected)
+(no user in config file)
+2019-10-09 07:22:00,463 WARN Included extra file "/etc/supervisor/conf.d/webapp.conf" during parsing
+2019-10-09 07:22:00,535 INFO RPC interface 'supervisor' initialized
+2019-10-09 07:22:00,536 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-09 07:22:00,536 INFO supervisord started with pid 7
+2019-10-09 07:22:01,548 INFO spawned: 'cron' with pid 14
+2019-10-09 07:22:01,553 INFO spawned: 'setup' with pid 15
+2019-10-09 07:22:01,555 INFO spawned: 'redis' with pid 16
+2019-10-09 07:22:01,576 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-09 07:22:02,772 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-09 07:22:02,772 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-09 07:22:02,788 INFO spawned: 'webapp' with pid 71
+2019-10-09 07:22:04,446 CRIT Supervisor running as root (no user in config file)
+2019-10-09 07:22:04,446 WARN Included extra file "/etc/supervisor/conf.d/hipache.conf" during parsing
+2019-10-09 07:22:04,507 CRIT Supervisor running as root (no user in config file)
+2019-10-09 07:22:04,508 WARN Included extra file "/etc/supervisor/conf.d/indexer.conf" during parsing
+2019-10-09 07:22:04,509 INFO RPC interface 'supervisor' initialized
+2019-10-09 07:22:04,510 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-09 07:22:04,510 INFO supervisord started with pid 7
+2019-10-09 07:22:04,566 INFO RPC interface 'supervisor' initialized
+2019-10-09 07:22:04,578 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-09 07:22:04,578 INFO supervisord started with pid 7
+2019-10-09 07:22:04,659 INFO success: webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-09 07:22:04,684 INFO exited: setup (exit status 0; expected)
+2019-10-09 07:22:05,520 INFO spawned: 'setup' with pid 14
+2019-10-09 07:22:05,574 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-09 07:22:05,582 INFO spawned: 'setup' with pid 14
+2019-10-09 07:22:05,756 INFO spawned: 'redis' with pid 23
+2019-10-09 07:22:05,840 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-09 07:22:06,077 INFO spawned: 'indexer' with pid 46
+2019-10-09 07:22:06,767 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-09 07:22:06,960 INFO spawned: 'hipache_http' with pid 42
+2019-10-09 07:22:07,337 INFO success: indexer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-09 07:22:07,345 INFO exited: setup (exit status 0; expected)
+2019-10-09 07:22:08,094 INFO success: hipache_http entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-09 07:22:08,272 INFO exited: setup (exit status 0; expected)
+2019-10-09 09:15:22,393 WARN received SIGTERM indicating exit request
+2019-10-09 09:15:22,394 INFO waiting for notebook to die
+019-10-09 09:15:22,404 INFO stopped: indexer (terminated by SIGTERM)
+2019-10-09 09:15:22,441 WARN received SIGTERM indicating exit request
+2019-10-09 09:15:22,443 WARN received SIGTERM indicating exit request
+2019-10-09 09:15:22,455 WARN received SIGTERM indicating exit request
+2019-10-09 09:15:22,456 INFO waiting for hipache_http, redis to die
+2019-10-09 09:15:22,460 INFO waiting for elasticsearch to die
+2019-10-09 09:15:23,664 INFO stopped: notebook (exit status 0)
+ die
+2019-10-09 09:15:22,540 INFO stopped: redis (exit status 0)
+2019-10-09 09:15:22,783 INFO stopped: elasticsearch (exit status 143)
+2019-10-09 09:15:23,520 INFO stopped: redis (exit status 0)
+2019-10-09 09:15:23,872 INFO stopped: hipache_http (exit status 0)
+2019-10-09 09:15:25,758 INFO waiting for cron, webapp to die
+2019-10-09 09:15:28,762 INFO waiting for cron, webapp to die
+2019-10-09 09:15:31,766 INFO waiting for cron, webapp to die
+2019-10-15 07:40:43,462 CRIT Supervisor running as root (no user in config file)
+2019-10-15 07:40:43,463 WARN Included extra file "/etc/supervisor/conf.d/index.conf" during parsing
+2019-10-15 07:40:43,511 INFO RPC interface 'supervisor' initialized
+2019-10-15 07:40:43,511 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-15 07:40:43,512 INFO supervisord started with pid 7
+2019-10-15 07:40:44,516 INFO spawned: 'setup' with pid 14
+server' running without any HTTP authentication checking
+2019-10-15 07:40:42,878 INFO supervisord started with pid 6
+2019-10-15 07:40:43,883 INFO spawned: 'setup' with pid 13
+2019-10-15 07:40:43,904 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-15 07:40:46,893 CRIT Supervisor running as root (no user in config file)
+2019-10-15 07:40:46,894 WARN Included ext2019-10-15 07:40:45,061 INFO spawned: 'elasticsearch' with pid 39
+2019-10-15 07:40:46,063 INFO success: elasticsearch entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-15 07:40:46,080 INFO exited: setup (exit status 0; expected)
+rvisord started with pid 6
+2019-10-15 07:40:47,955 INFO spawned: 'cron' with pid 13
+2019-10-15 07:40:48,009 INFO spawned: 'setup' with pid 14
+2019-10-15 07:40:48,011 INFO spawned: 'redis' with pid 15
+2019-10-15 07:40:48,021 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-15 07:40:49,230 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-15 07:40:49,230 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-15 07:40:49,269 INFO spawned: 'webapp' with pid 111
+2019-10-15 07:40:50,812 INFO success: webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-15 07:40:50,889 INFO exited: setup (exit status 0; expected)
+5 07:40:51,436 INFO RPC interface 'supervisor' initialized
+2019-10-15 07:40:51,436 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-15 07:40:51,437 INFO supervisord started with pid 6
+2019-10-15 07:40:52,445 INFO spawned: 'setup' with pid 13
+2019-10-15 07:40:52,650 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-15 07:40:53,018 INFO spawned: 'indexer' with pid 4202019-10-15 07:40:54,777 INFO success: indexer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-15 07:40:54,815 INFO exited: setup (exit status 0; ex2019-10-15 07:40:55,566 INFO success: hipache_http entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-15 07:40:55,687 INFO exited: setup (exit status 0; expected)
+2019-10-15 07:41:04,844 INFO spawned: 'notebook' with pid 149
+2019-10-15 07:41:05,863 INFO success: notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-15 07:41:05,876 INFO exited: setup (exit status 0; expected)
+2019-10-15 09:45:24,554 WARN received SIGTERM indicating exit request
+2019-10-15 09:45:24,555 INFO waiting for hipache_http, re2019-10-15 09:45:24,554 WARN received SIGTERM indicating exit request
+2019-10-15 09:45:24,556 INFO waiting for cron, webapp, redis to die
+2019-10-15 09:45:24,649 INFO stopped: redis (exit status 0)
+2019-10-15 09:45:26,637 INFO stopped: notebook (exit status 0)
+atus 143)
+2019-10-15 09:45:28,403 INFO waiting for cron, webapp to die
+2019-10-15 09:45:31,407 INFO waiting for cron, webapp to die
+2019-10-15 09:45:34,412 INFO waiting for cron, webapp to die
+2019-10-16 01:51:29,747 CRIT Supervisor running as root (no user in config file)
+2019-10-16 01:51:29,521 WARN Included extra file "/etc/supervisor/conf.d/index.conf" during parsing
+2019-10-16 01:51:29,551 INFO RPC interface 'supervisor' initialized
+2019-10-16 01:51:29,551 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-16 01:51:29,551 INFO supervisord started with pid 6
+2019-10-16 01:51:30,554 INFO spawned: 'setup' with pid 13
+2019-10-16 01:51:30,686 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-16 01:51:30,796 INFO spawned: 'elasticsearch' with pid 38
+2019-10-16 01:51:32,377 INFO success: elasticsearch entered RUNNING state, process has stayed up for > than 12019-10-16 01:51:31,257 INFO spawned: 'notebook' with pid 85
+2019-10-16 01:51:32,427 INFO success: notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-16 01:51:32,440 INFO exited: setup (exit status 0; expected)
+10-16 01:51:34,643 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-16 01:51:34,644 INFO supervisord started with pid 7
+2019-10-16 01:51:35,648 INFO spawned: 'cron' with pid 14
+2019-10-16 01:51:35,708 INFO spawned: 'setup' with pid 15
+2019-10-16 01:51:35,711 INFO spawned: 'redis' with pid 16
+2019-10-16 01:51:35,768 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-16 01:51:36,738 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-16 01:51:36,739 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-16 01:51:37,694 INFO spawned: 'webapp' with pid 162
+2019-10-16 01:51:38,699 INFO success: webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-16 01:51:38,720 INFO exited: setup (exit status 0; expected)
+6 01:51:38,182 INFO RPC interface 'supervisor' initialized
+2019-10-16 01:51:38,182 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-16 01:51:38,182 INFO supervisord started with pid 6
+2019-10-16 01:51:39,279 INFO spawned: 'setup' with pid 13
+2019-10-16 01:51:39,539 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-16 01:51:40,233 INFO spawned: 'indexer' with pid 4202019-10-16 01:51:41,322 INFO success: indexer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-16 01:51:41,333 INFO exited: setup (exit status 0; ex2019-10-16 01:51:41,889 INFO success: hipache_http entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-16 01:51:41,951 INFO exited: setup (exit status 0; expected)
+2019-10-16 03:00:18,574 WARN received SIGTERM indicating exit request
+2019-10-16 03:00:18,574 INFO waiting for indexer to die
+22019-10-16 03:00:18,584 WARN received SIGTERM indicating exit request2019-10-16 03:00:18,590 WARN received SIGTERM indicating exit request
+2019-10-16 03:00:18,612 INFO waiting for cron, webapp, redis to die
+2019-10-16 03:00:18,623 INFO stopped: redis (exit status 0)
+43)
+2019-10-16 03:00:19,995 INFO stopped: hipache_http (exit status 0)
+2019-10-16 03:00:22,090 INFO waiting for cron, webapp to die
+2019-10-16 03:00:25,103 INFO waiting for cron, webapp to die
+2019-10-16 03:00:28,110 INFO waiting for cron, webapp to die
+2019-10-17 07:00:37,585 CRIT Supervisor running as root (no user in config file)
+2019-10-17 07:00:37,585 WARN Included extra file "/etc/supervisor/conf.d/index.conf" during parsing
+2019-10-17 07:00:37,618 INFO RPC interface 'supervisor' initialized
+2019-10-17 07:00:37,618 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-17 07:00:37,618 INFO supervisord started with pid 6
+2019-10-17 07:00:38,622 INFO spawned: 'setup' with pid 13
+2019-10-17 07:00:38,749 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-17 07:00:38,856 INFO spawned: 'elasticsearch' with pid 38
+2019-10-17 07:00:40,340 INFO success: elasticsearch entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 07:00:40,350 INFO exited: setup (exit status 0; expected)
+0:38,898 INFO RPC interface 'supervisor' initialized
+2019-10-17 07:00:38,898 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-10-17 07:00:38,900 INFO RPC interface 'supervisor' initialized
+2019-10-17 07:00:38,900 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-17 07:00:38,900 INFO supervisord started with pid 6
+2019-10-17 07:00:39,907 INFO spawned: 'setup' with pid 13
+2019-10-17 07:00:39,934 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-17 07:00:40,833 INFO spawned: 'notebook' with pid 85
+2019-10-17 07:00:41,851 INFO success: notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 07:00:41,878 INFO exited: setup (exit status 0; expected)
+10-17 07:00:44,581 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-17 07:00:44,582 INFO supervisord started with pid 6
+2019-10-17 07:00:45,591 INFO spawned: 'cron' with pid 13
+2019-10-17 07:00:45,593 INFO spawned: 'setup' with pid 14
+2019-10-17 07:00:45,597 INFO spawned: 'redis' with pid 15
+2019-10-17 07:00:45,609 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-17 07:00:46,592 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 07:00:46,614 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 07:00:48,067 INFO spawned: 'webapp' with pid 119
+2019-10-17 07:00:49,069 INFO success: webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 07:00:49,134 INFO exited: setup (exit status 0; expected)
+7 07:00:49,884 INFO RPC interface 'supervisor' initialized
+2019-10-17 07:00:49,884 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-17 07:00:49,884 INFO supervisord started with pid 6
+2019-10-17 07:00:50,888 INFO spawned: 'setup' with pid 13
+2019-10-17 07:00:50,111 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-17 07:00:50,341 INFO spawned: 'indexer' with pid 45
+2019-10-17 07:00:51,412 INFO success: indexer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 07:00:51,424 INFO exited: setup (exit status 2019-10-17 07:00:52,218 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 07:00:52,521 INFO spawned: 'hipache_http' with pid 41
+2019-10-17 07:00:54,127 INFO success: hipache_http entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 07:00:54,367 INFO exited: setup (exit status 0; expected)
+2019-10-17 08:03:30,907 WARN received SIGTERM indicating exit request
+2019-10-17 08:03:30,912 WARN received SIGTERM indicating exit request
+2019-10-17 08:03:30,913 INFO waiting for indexer to die
+2019-10-17 08:03:30,915 INFO stopped: indexer (terminated by SIGTERM)
+2019-10-17 08:03:30,939 WARN received SIGTERM indicating exit request
+2019-10-17 08:03:30,939 INFO waiting for hipache_http, redis to die
+2019-10-17 08:03:31,996 INFO stopped: redis (exit status 0)
+2019-10-17 08:03:32,309 INFO stopped: hipache_http (exit status 0)
+2019-10-17 08:03:34,501 INFO waiting for cron, webapp to die
+2019-10-17 08:03:37,510 INFO waiting for cron, webapp to die
+2019-10-17 08:03:40,514 INFO waiting for cron, webapp to die
+2019-10-17 10:26:38,252 CRIT Supervisor running as root (no user in config file)
+2019-10-17 10:26:38,252 WARN Included extra file "/etc/supervisor/conf.d/index.conf" during parsing
+2019-10-17 10:26:38,301 INFO RPC interface 'supervisor' initialized
+2019-10-17 10:26:38,301 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-17 10:26:38,301 INFO supervisord started with pid 6
+2019-10-17 10:26:38,651 CRIT Supervisor running as root (no user in config file)
+2019-10-17 10:26:38,651 INFO Included extra file "/etc/supervisor/conf.d/nbserver.conf" during parsing
+2019-10-17 10:26:38,684 INFO RPC interface 'supervisor' initialized
+2019-10-17 10:26:38,684 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-10-17 10:26:38,685 INFO RPC interface 'supervisor' initialized
+2019-10-17 10:26:38,685 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-17 10:26:38,685 INFO supervisord started with pid 6
+2019-10-17 10:26:39,305 INFO spawned: 'setup' with pid 14
+2019-10-17 10:26:39,476 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-17 10:26:39,628 INFO spawned: 'elasticsearch' with pid 39
+2019-10-17 10:26:39,688 INFO spawned: 'setup' with pid 13
+2019-10-17 10:26:39,711 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-17 10:26:40,374 INFO spawned: 'notebook' with pid 85
+2019-10-17 10:26:41,428 INFO success: elasticsearch entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 10:26:41,440 INFO exited: setup (exit status 0; expected)
+2019-10-17 10:26:41,898 INFO success: notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 10:26:42,044 INFO exited: setup (exit status 0; expected)
+0:26:44,377 INFO RPC interface 'supervisor' initialized
+2019-10-17 10:26:44,377 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-17 10:26:44,378 INFO supervisord started with pid 6
+2019-10-17 10:26:45,382 INFO spawned: 'cron' with pid 13
+2019-10-17 10:26:45,430 INFO spawned: 'setup' with pid 14
+2019-10-17 10:26:45,434 INFO spawned: 'redis' with pid 15
+2019-10-17 10:26:45,494 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-17 10:26:46,526 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 10:26:46,526 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 10:26:47,539 INFO spawned: 'webapp' with pid 138
+2019-10-17 10:26:48,549 INFO success: webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 10:26:48,612 INFO exited: setup (exit status 0; expected)
+7 10:26:49,924 INFO RPC interface 'supervisor' initialized
+2019-10-17 10:26:49,925 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-17 10:26:49,925 INFO supervisord started with pid 7
+2019-10-17 10:26:50,934 INFO spawned: 'setup' with pid 14
+2019-10-17 10:26:50,494 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-17 10:26:50,806 INFO spawned: 'indexer' with pid 45
+2019-10-17 10:26:52,345 INFO success: indexer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 10:26:52,404 INFO exited: setup (exit status 0; expected)
+s has stayed up for > than 1 seconds (startsecs)
+2019-10-17 10:26:52,614 INFO spawned: 'hipache_http' with pid 42
+2019-10-17 10:26:53,874 INFO success: hipache_http entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 10:26:54,234 INFO exited: setup (exit status 0; expected)
+2019-10-17 11:59:17,294 WARN received SIGTERM indicating exit request
+2019-10-17 11:59:17,296 INFO waiting for notebook to die
+2019-10-17 11:59:17,311 WARN received SIGTERM indicating exit request
+2019-10-17 11:59:17,341 INFO waiting for hipache_http, redis to die
+2019-10-17 11:59:18,478 INFO stopped: redis (exit status 02019-10-17 11:59:17,349 WARN received SIGTERM indicating exit request
+2019-10-17 11:59:17,351 INFO waiting for cron, webapp, redis to die
+2019-10-17 11:59:17,408 INFO stopped: redis (exit status 0)
+43)
+2019-10-17 11:59:18,489 INFO stopped: notebook (exit status 0)
+2019-10-17 11:59:20,409 INFO waiting for cron, webapp to die
+2019-10-17 11:59:23,413 INFO waiting for cron, webapp to die
+2019-10-17 11:59:26,421 INFO waiting for cron, webapp to die
+2019-10-17 12:06:33,887 CRIT Supervisor running as root (no user in config file)
+2019-10-17 12:06:33,887 INFO Included extra file "/etc/supervisor/conf.d/nbserver.conf" during parsing
+2019-10-17 12:06:33,914 INFO RPC interface 'supervisor' initialized
+2019-10-17 12:06:33,914 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-10-17 12:06:33,915 INFO RPC interface 'supervisor' initialized
+2019-10-17 12:06:33,915 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-17 12:06:33,915 INFO supervisord started with pid 6
+2019-10-17 12:06:34,919 INFO spawned: 'setup' with pid 13
+ with pid 38
+2019-10-17 12:06:36,002 INFO success: elasticsearch entered RUNNING state, process has stayed up for > than 1 seconds (sta2019-10-17 12:06:35,517 INFO spawned: 'notebook' with pid 85
+2019-10-17 12:06:36,943 INFO success: notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 12:06:36,972 INFO exited: setup (exit status 0; expected)
+ing
+2019-10-17 12:06:37,879 INFO RPC interface 'supervisor' initialized
+2019-10-17 12:06:37,880 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-17 12:06:37,880 INFO supervisord started with pid 6
+2019-10-17 12:06:38,883 INFO spawned: 'cron' with pid 13
+2019-10-17 12:06:38,889 INFO spawned: 'setup' with pid 14
+2019-10-17 12:06:38,891 INFO spawned: 'redis' with pid 15
+2019-10-17 12:06:38,900 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-17 12:06:40,341 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 12:06:40,341 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 12:06:40,389 INFO spawned: 'webapp' with pid 159
+2019-10-17 12:06:42,129 CRIT Supervisor running as root (no user in config file)
+2019-10-17 12:06:42,129 WARN Included extra file "/etc/supervisor/conf.d/indexer.conf" during parsing
+2019-10-17 12:06:42,166 INFO RPC interface 'supervisor' initialized
+2019-10-17 12:06:42,166 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-17 12:06:42,166 INFO supervisord started with pid 6
+2019-10-17 12:06:42,230 INFO success: webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 12:06:42,311 INFO exited: setup (exit status 0; expected)
+2019-10-17 12:06:42,753 CRIT Supervisor running as root (no user in config file)
+2019-10-17 12:06:42,753 WARN Included extra file "/etc/supervisor/conf.d/hipache.conf" during parsing
+2019-10-17 12:06:42,873 INFO RPC interface 'supervisor' i2019-10-17 12:06:44,593 INFO success: indexer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 12:06:44,614 INFO exited: setup (exit status 0; expected)
+3,878 INFO spawned: 'setup' with pid 13
+2019-10-17 12:06:43,936 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-17 12:06:44,195 INFO spawned: 'redis' with pid 22
+2019-10-17 12:06:45,246 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 12:06:45,595 INFO spawned: 'hipache_http' with pid 41
+2019-10-17 12:06:47,238 INFO success: hipache_http entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-17 12:06:47,478 INFO exited: setup (exit status 0; expected)
+2019-10-17 14:35:47,237 WARN received SIGTERM indicating exit request
+2019-10-17 14:35:47,237 INFO waiting for hipache_http, redis to die
+2019-10-17 14:35:48,374 INFO stopped: redis (exit status 0)
+2019-10-17 14:35:48,682 INFO stopped: hipache_http (exit status 0)
+
+2019-10-17 14:35:47,253 INFO waiting for cron, webapp, redis to die
+2019-10-17 14:35:47,273 WARN received SIGTERM indicating exit request
+2019-10-17 14:35:47,278 INFO waiting for notebook to die
+2019-10-17 14:35:48,382 INFO stopped: notebook (exit status 0)
+)
+2019-10-17 14:35:47,371 INFO stopped: elasticsearch (exit status 143)
+2019-10-17 14:35:50,930 INFO waiting for cron, webapp to die
+2019-10-17 14:35:53,940 INFO waiting for cron, webapp to die
+2019-10-17 14:35:56,944 INFO waiting for cron, webapp to die
+2019-10-25 01:23:15,959 CRIT Supervisor running as root (no user in config file)
+2019-10-25 01:23:15,960 INFO Included extra file "/etc/supervisor/conf.d/nbserver.conf" during parsing
+2019-10-25 01:23:15,992 INFO RPC interface 'supervisor' initialized
+2019-10-25 01:23:15,992 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-10-25 01:23:15,993 INFO RPC interface 'supervisor' initialized
+2019-10-25 01:23:15,993 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-25 01:23:15,993 INFO supervisord started with pid 6
+2019-2019-10-25 01:23:16,960 INFO spawned: 'elasticsearch' with pid 39
+2019-10-25 01:23:18,741 INFO success: elasticsearch entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-25 01:23:18,753 INFO exited: setup (exit status 0; expected)
+success: notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-25 01:23:19,179 INFO exited: setup (exit status 0; expected)
+2019-10-25 01:23:21,121 CRIT Supervisor running as root (no user in config file)
+2019-10-25 01:23:21,121 WARN Included extra file "/etc/supervisor/conf.d/webapp.conf" during parsing
+2019-10-25 01:23:21,204 INFO RPC interface 'supervisor' initialized
+2019-10-25 01:23:21,225 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-25 01:23:21,226 INFO supervisord started with pid 7
+2019-10-25 01:23:22,232 INFO spawned: 'cron' with pid 14
+2019-10-25 01:23:22,257 INFO spawned: 'setup' with pid 15
+2019-10-25 01:23:22,261 INFO spawned: 'redis' with pid 16
+2019-10-25 01:23:22,372 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-25 01:23:23,685 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-25 01:23:23,686 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-25 01:23:24,954 INFO spawned: 'webapp' with pid 126
+2019-10-25 01:23:25,958 INFO success: webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-25 01:23:26,086 INFO exited: setup (exit status 0; expected)
+019-10-25 01:23:25,801 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-25 01:23:25,802 INFO supervisord started with pid 6
+2019-10-25 01:23:26,614 INFO spawned: 'setup' with pid 13
+2019-10-25 01:23:26,941 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-25 01:23:27,250 INFO spawned: 'indexer' with pid 45
+2019-10-25 01:23:28,748 INFO success: indexer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-25 01:23:28,761 INFO exited: setup (exit status 0; ex2019-10-25 01:23:30,233 INFO success: hipache_http entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-25 01:23:30,414 INFO exited: setup (exit status 0; expected)
+2019-10-25 04:19:04,655 WARN received SIGTERM indicating exit request
+2019-10-25 04:19:04,711 INFO waiting for cron, webapp, redis to die
+2019-10-25 04:19:04,775 INFO stopped: redis (exit status 0)
+2019-10-25 04:19:06,059 INFO stopped: hipache_http (exit status 0)
+-25 04:19:04,733 INFO stopped: indexer (terminated by SIGTERM)
+2019-10-25 04:19:05,015 INFO stopped: elasticsearch (exit status 143)
+2019-10-25 04:19:08,456 INFO waiting for cron, webapp to die
+2019-10-25 04:19:11,461 INFO waiting for cron, webapp to die
+2019-10-25 04:19:14,471 INFO waiting for cron, webapp to die
+2019-10-25 05:11:59,711 CRIT Supervisor running as root (no user in config file)
+2019-10-25 05:11:59,711 WARN Included extra file "/etc/supervisor/conf.d/index.conf" during parsing
+2019-10-25 05:11:59,751 INFO RPC interface 'supervisor' initialized
+2019-10-25 05:11:59,751 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-25 05:11:59,751 INFO supervisord started with pid 6
+2019-10-25 05:12:00,053 CRIT Supervisor running as root (no user in config file)
+2019-10-25 05:12:00,053 INFO Included extra file "/etc/supervisor/conf.d/nbserver.conf" during parsing
+2019-10-25 05:12:00,079 INFO RPC interface 'supervisor' initialized
+2019-10-25 05:12:00,079 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-10-25 05:12:00,080 INFO RPC interface 'supervisor' initialized
+2019-10-25 05:12:00,080 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-25 05:12:00,080 INFO supervisord started with pid 7
+2019-10-25 05:12:00,755 INFO spawned: 'setup' with pid 13
+2019-10-25 05:12:00,927 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-25 05:12:01,032 INFO spawned: 'elasticsearch' with pid 38
+2019-10-25 05:12:01,086 INFO spawned: 'setup' with pid 14
+2019-10-25 05:12:01,103 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-25 05:12:01,578 INFO spawned: 'notebook' with pid 86
+2019-10-25 05:12:02,513 INFO success: elasticsearch entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-25 05:12:02,535 INFO exited: setup (exit status 0; expected)
+2019-10-25 05:12:02,581 INFO success: notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-25 05:12:02,596 INFO exited: setup (exit status 0; expected)
+5:12:04,796 INFO RPC interface 'supervisor' initialized
+2019-10-25 05:12:04,797 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-25 05:12:04,797 INFO supervisord started with pid 6
+2019-10-25 05:12:05,800 INFO spawned: 'cron' with pid 13
+2019-10-25 05:12:05,802 INFO spawned: 'setup' with pid 14
+2019-10-25 05:12:05,810 INFO spawned: 'redis' with pid 15
+2019-10-25 05:12:05,822 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-25 05:12:06,838 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-25 05:12:06,839 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-25 05:12:07,743 INFO spawned: 'webapp' with pid 132
+2019-10-25 05:12:08,745 INFO success: webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-25 05:12:08,761 INFO exited: setup (exit status 0; expected)
+5 05:12:08,745 INFO RPC interface 'supervisor' initialized
+2019-10-25 05:12:08,745 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-10-25 05:12:08,746 INFO supervisord started with pid 7
+2019-10-25 05:12:09,752 INFO spawned: 'setup' with pid 14
+2019-10-25 05:12:09,184 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-25 05:12:09,416 INFO spawned: 'indexer' with pid 45
+2019-10-25 05:12:10,470 INFO success: indexer entered RUNNING state, process has stayed up for > than 1 seconds (startse2019-10-25 05:12:11,148 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-25 05:12:11,565 INFO spawned: 'hipache_http' with pid 42
+2019-10-25 05:12:13,484 INFO success: hipache_http entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-10-25 05:12:13,905 INFO exited: setup (exit status 0; expected)
+2019-10-25 05:45:16,191 WARN received SIGTERM indicating exit request
+2019-10-25 05:45:16,192 INFO waiting for hipache_http, r2019-10-25 05:45:16,143 WARN received SIGTERM indicating exit request
+2019-10-25 05:45:16,146 INFO waiting for cron, webapp, redis to die
+2019-10-25 05:45:16,190 INFO stopped: redis (exit status 0)
+019-10-25 05:45:16,135 WARN received SIGTERM indicating exit request
+2019-10-25 05:45:16,149 INFO waiting for elasticsearch to die
+2019-10-25 05:45:16,314 INFO stopped: elasticsearch (exit status 143)
+2019-10-25 05:45:17,235 INFO stopped: notebook (exit status 0)
+2019-10-25 05:45:19,937 INFO waiting for cron, webapp to die
+2019-10-25 05:45:22,941 INFO waiting for cron, webapp to die
+2019-10-25 05:45:25,945 INFO waiting for cron, webapp to die
